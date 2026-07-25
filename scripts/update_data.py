@@ -47,26 +47,40 @@ def atomic_write(path: pathlib.Path, content: str) -> None:
     os.replace(temporary, path)
 
 
-def search_page(api_url: str, page_size: int, start: int, filters: dict) -> dict:
+def search_page(
+    api_url: str,
+    page_size: int,
+    start: int,
+    filters: dict,
+    sort_by: str = "relevance",
+    sort: str = "desc",
+) -> dict:
     query = urllib.parse.urlencode(
         {
             **filters,
             "limit": page_size,
             "start": start,
-            "sort_by": "relevance",
-            "sort": "desc",
+            "sort_by": sort_by,
+            "sort": sort,
         }
     )
     return request_json(f"{api_url}/search/?{query}")
 
 
 def fetch_partition(
-    api_url: str, page_size: int, filters: dict, expected_count: int
+    api_url: str,
+    page_size: int,
+    filters: dict,
+    expected_count: int,
+    sort_by: str,
+    sort: str,
 ) -> list[dict]:
     records: list[dict] = []
     start = 0
     while start < expected_count:
-        payload = search_page(api_url, page_size, start, filters)
+        payload = search_page(
+            api_url, page_size, start, filters, sort_by=sort_by, sort=sort
+        )
         page = payload.get("data")
         if not isinstance(page, list):
             raise RuntimeError("Unexpected /search response: 'data' is not a list")
@@ -86,13 +100,51 @@ def fetch_partition(
     return records
 
 
+def fetch_unique_partition(
+    api_url: str, page_size: int, filters: dict, expected_count: int
+) -> list[dict]:
+    """Recover a complete partition despite unstable ordering between API pages."""
+    records_by_id: dict[str, dict] = {}
+    sort_orders = [
+        ("relevance", "desc"),
+        ("relevance", "asc"),
+        ("frequency", "desc"),
+        ("frequency", "asc"),
+        ("hits_90_days", "desc"),
+        ("hits_90_days", "asc"),
+    ]
+    for sort_by, sort in sort_orders:
+        records = fetch_partition(
+            api_url, page_size, filters, expected_count, sort_by, sort
+        )
+        for item in records:
+            series_id = item.get("field", {}).get("id")
+            if not series_id:
+                raise RuntimeError(f"Series without an ID in partition {filters}")
+            records_by_id[series_id] = item
+        print(
+            f"Unique: {len(records_by_id):,}/{expected_count:,} "
+            f"after {sort_by} {sort}",
+            file=sys.stderr,
+        )
+        if len(records_by_id) == expected_count:
+            return list(records_by_id.values())
+
+    raise RuntimeError(
+        f"Incomplete partition {filters}: recovered {len(records_by_id)} unique "
+        f"series, expected {expected_count}"
+    )
+
+
 def fetch_category(
     api_url: str, page_size: int, theme: str, catalogs: list[str]
 ) -> list[dict]:
     theme_filters = {"dataset_theme": theme}
     total_count = int(search_page(api_url, 1, 0, theme_filters)["count"])
     if total_count <= 10_000:
-        records = fetch_partition(api_url, page_size, theme_filters, total_count)
+        records = fetch_unique_partition(
+            api_url, page_size, theme_filters, total_count
+        )
     else:
         records = []
         partition_count = 0
@@ -105,7 +157,7 @@ def fetch_category(
                         f"Partition remains above API limit: {filters} ({catalog_count})"
                     )
                 records.extend(
-                    fetch_partition(api_url, page_size, filters, catalog_count)
+                    fetch_unique_partition(api_url, page_size, filters, catalog_count)
                 )
                 partition_count += catalog_count
         if partition_count != total_count:
