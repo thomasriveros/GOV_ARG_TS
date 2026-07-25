@@ -114,9 +114,16 @@ def fetch_unique_partition(
         ("hits_90_days", "asc"),
     ]
     for sort_by, sort in sort_orders:
-        records = fetch_partition(
-            api_url, page_size, filters, expected_count, sort_by, sort
-        )
+        try:
+            records = fetch_partition(
+                api_url, page_size, filters, expected_count, sort_by, sort
+            )
+        except RuntimeError as error:
+            print(
+                f"Skipping unavailable ordering {sort_by} {sort}: {error}",
+                file=sys.stderr,
+            )
+            continue
         for item in records:
             series_id = item.get("field", {}).get("id")
             if not series_id:
