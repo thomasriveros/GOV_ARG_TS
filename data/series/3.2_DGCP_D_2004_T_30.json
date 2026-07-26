@@ -1,0 +1,482 @@
+{
+  "count": 89,
+  "data": [
+    [
+      "2004-01-01",
+      301225.674551763
+    ],
+    [
+      "2004-04-01",
+      305241.65873741
+    ],
+    [
+      "2004-07-01",
+      317312.248372103
+    ],
+    [
+      "2004-10-01",
+      324547.957630247
+    ],
+    [
+      "2005-01-01",
+      321702.446474006
+    ],
+    [
+      "2005-04-01",
+      343081.078053192
+    ],
+    [
+      "2005-07-01",
+      331929.024053406
+    ],
+    [
+      "2005-10-01",
+      343898.586777964
+    ],
+    [
+      "2006-01-01",
+      353365.268643993
+    ],
+    [
+      "2006-04-01",
+      372603.087543381
+    ],
+    [
+      "2006-07-01",
+      380887.266096293
+    ],
+    [
+      "2006-10-01",
+      380636.011555957
+    ],
+    [
+      "2007-01-01",
+      391504.941542883
+    ],
+    [
+      "2007-04-01",
+      403493.072654607
+    ],
+    [
+      "2007-07-01",
+      412119.428113328
+    ],
+    [
+      "2007-10-01",
+      419288.708706151
+    ],
+    [
+      "2008-01-01",
+      438615.836782796
+    ],
+    [
+      "2008-04-01",
+      440636.118298681
+    ],
+    [
+      "2008-07-01",
+      435768.13437992
+    ],
+    [
+      "2008-10-01",
+      429213.477868926
+    ],
+    [
+      "2009-01-01",
+      407841.866988642
+    ],
+    [
+      "2009-04-01",
+      395219.651478073
+    ],
+    [
+      "2009-07-01",
+      427161.227684315
+    ],
+    [
+      "2009-10-01",
+      419863.163249625
+    ],
+    [
+      "2010-01-01",
+      437372.202081867
+    ],
+    [
+      "2010-04-01",
+      456771.861988663
+    ],
+    [
+      "2010-07-01",
+      462988.968527001
+    ],
+    [
+      "2010-10-01",
+      477567.631828922
+    ],
+    [
+      "2011-01-01",
+      491129.936447623
+    ],
+    [
+      "2011-04-01",
+      494852.849930572
+    ],
+    [
+      "2011-07-01",
+      508546.014013705
+    ],
+    [
+      "2011-10-01",
+      512059.813246479
+    ],
+    [
+      "2012-01-01",
+      497163.112673043
+    ],
+    [
+      "2012-04-01",
+      495936.430056397
+    ],
+    [
+      "2012-07-01",
+      514963.130815731
+    ],
+    [
+      "2012-10-01",
+      520804.728181524
+    ],
+    [
+      "2013-01-01",
+      520831.045202544
+    ],
+    [
+      "2013-04-01",
+      515256.047605223
+    ],
+    [
+      "2013-07-01",
+      534794.127033792
+    ],
+    [
+      "2013-10-01",
+      531816.909312314
+    ],
+    [
+      "2014-01-01",
+      518707.227200226
+    ],
+    [
+      "2014-04-01",
+      499802.391332194
+    ],
+    [
+      "2014-07-01",
+      490902.633839238
+    ],
+    [
+      "2014-10-01",
+      501645.493296201
+    ],
+    [
+      "2015-01-01",
+      511534.674273463
+    ],
+    [
+      "2015-04-01",
+      527223.286193052
+    ],
+    [
+      "2015-07-01",
+      523368.754264899
+    ],
+    [
+      "2015-10-01",
+      522459.247455606
+    ],
+    [
+      "2016-01-01",
+      521148.286408208
+    ],
+    [
+      "2016-04-01",
+      512148.803203364
+    ],
+    [
+      "2016-07-01",
+      515979.9371238
+    ],
+    [
+      "2016-10-01",
+      519043.528415824
+    ],
+    [
+      "2017-01-01",
+      529980.096864001
+    ],
+    [
+      "2017-04-01",
+      535946.820761649
+    ],
+    [
+      "2017-07-01",
+      539066.684073178
+    ],
+    [
+      "2017-10-01",
+      549336.897185944
+    ],
+    [
+      "2018-01-01",
+      552557.091353405
+    ],
+    [
+      "2018-04-01",
+      539674.218503246
+    ],
+    [
+      "2018-07-01",
+      523321.28514485
+    ],
+    [
+      "2018-10-01",
+      490397.542149339
+    ],
+    [
+      "2019-01-01",
+      494139.087148526
+    ],
+    [
+      "2019-04-01",
+      505227.755151839
+    ],
+    [
+      "2019-07-01",
+      501077.277384191
+    ],
+    [
+      "2019-10-01",
+      476476.333447445
+    ],
+    [
+      "2020-01-01",
+      464626.533310614
+    ],
+    [
+      "2020-04-01",
+      391441.253222762
+    ],
+    [
+      "2020-07-01",
+      426156.18109847
+    ],
+    [
+      "2020-10-01",
+      454078.26847603
+    ],
+    [
+      "2021-01-01",
+      463317.111389534
+    ],
+    [
+      "2021-04-01",
+      466251.469217034
+    ],
+    [
+      "2021-07-01",
+      474840.306435949
+    ],
+    [
+      "2021-10-01",
+      496255.094673647
+    ],
+    [
+      "2022-01-01",
+      508799.60176803
+    ],
+    [
+      "2022-04-01",
+      524003.928662801
+    ],
+    [
+      "2022-07-01",
+      525149.849373859
+    ],
+    [
+      "2022-10-01",
+      522631.838322049
+    ],
+    [
+      "2023-01-01",
+      528451.306415279
+    ],
+    [
+      "2023-04-01",
+      533836.664481005
+    ],
+    [
+      "2023-07-01",
+      527178.359872027
+    ],
+    [
+      "2023-10-01",
+      511656.605494692
+    ],
+    [
+      "2024-01-01",
+      500846.498559177
+    ],
+    [
+      "2024-04-01",
+      489455.494857873
+    ],
+    [
+      "2024-07-01",
+      515831.645038387
+    ],
+    [
+      "2024-10-01",
+      534761.54887526
+    ],
+    [
+      "2025-01-01",
+      546670.130882202
+    ],
+    [
+      "2025-04-01",
+      552326.577776533
+    ],
+    [
+      "2025-07-01",
+      555411.905235198
+    ],
+    [
+      "2025-10-01",
+      561326.569468535
+    ],
+    [
+      "2026-01-01",
+      565983.811893563
+    ]
+  ],
+  "meta": [
+    {
+      "end_date": "2026-01-01",
+      "frequency": "quarter",
+      "start_date": "2004-01-01"
+    },
+    {
+      "catalog": {
+        "description": "Catálogo de datos abiertos de la Subsecretaría de Programación Macroeconómica.",
+        "identifier": "sspm",
+        "issued": "2017-09-28",
+        "language": [
+          "SPA"
+        ],
+        "license": "Creative Commons Attribution 4.0",
+        "modified": "2017-09-28",
+        "publisher": {
+          "mbox": "datoseconomicos@mecon.gov.ar",
+          "name": "Subsecretaría de Programación Macroeconómica."
+        },
+        "spatial": "ARG",
+        "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+        "title": "Datos Programación Macroeconómica"
+      },
+      "dataset": {
+        "accessLevel": "ABIERTO",
+        "accrualPeriodicity": "R/P3M",
+        "contactPoint": {
+          "fn": "Subsecretaría de Programación Macroeconómica.",
+          "hasEmail": "datoseconomicos@mecon.gov.ar"
+        },
+        "description": "Componentes desestacionalizados de la oferta y demanda globales a precios de 2004.",
+        "identifier": "3",
+        "issued": "2017-09-28",
+        "keyword": [
+          "actividad",
+          "cuentas nacionales",
+          "ccnn",
+          "oferta",
+          "demanda",
+          "base 2004"
+        ],
+        "landingPage": "https://www.economia.gob.ar/datos/",
+        "language": [
+          "SPA"
+        ],
+        "license": "Creative Commons Attribution 4.0",
+        "publisher": {
+          "mbox": "datoseconomicos@mecon.gov.ar",
+          "name": "Subsecretaría de Programación Macroeconómica"
+        },
+        "source": "Instituto Nacional de Estadística y Censos (INDEC)",
+        "spatial": "ARG",
+        "superTheme": [
+          "ECON"
+        ],
+        "temporal": "2004-01-01/2016-12-01",
+        "theme": [
+          {
+            "description": "Series de actividad: cuentas nacionales, consumo, producción, etc.",
+            "id": "actividad",
+            "label": "Actividad"
+          }
+        ],
+        "title": "Oferta y Demanda Globales. Datos desestacionalizados. Base 2004"
+      },
+      "distribution": {
+        "accessURL": "https://www.economia.gob.ar/datos/",
+        "changed": "False",
+        "description": "Oferta y Demanda Globales por componente, a precios de comprador, en millones de pesos de 2004 y valores trimestral desestacionalizados.",
+        "downloadURL": "https://infra.datos.gob.ar/catalog/sspm/dataset/3/distribution/3.2/download/oferta-demanda-globales-datos-desestacionalizados-valores-trimestral-base-2004.csv",
+        "fileName": "oferta-demanda-globales-datos-desestacionalizados-valores-trimestral-base-2004.csv",
+        "format": "CSV",
+        "frequency": "R/P3M",
+        "identifier": "3.2",
+        "issued": "2017-09-28",
+        "last_hash": "569a7f28c2ac082029634cd8d7ea15affea34102de5f31aa85842b9da4fb3895e82c1554ab194820a73cdba73babac3334404ee1938fb4258ee9327e35e3ca95",
+        "title": "Oferta y Demanda Global. Precios constantes desestacionalizados. Base 2004. Valores trimestrales."
+      },
+      "field": {
+        "available": "true",
+        "average": "473173.7601365984",
+        "days_without_data": "116",
+        "description": "Consumo publico, en millones de pesos de 2004 y Anual.",
+        "frequency": "R/P3M",
+        "hits_180_days": "0",
+        "hits_30_days": "0",
+        "hits_90_days": "0",
+        "hits_total": "41566",
+        "id": "3.2_DGCP_D_2004_T_30",
+        "is_percentage": false,
+        "is_updated": "True",
+        "last_pct_change": "0.008296850137411882",
+        "last_value": "565983.811893563",
+        "max_value": "565983.811893563",
+        "min_value": "301225.674551763",
+        "representation_mode": "value",
+        "representation_mode_units": "Millones de pesos a precios de 2004",
+        "second_to_last_value": "561326.569468535",
+        "significant_figures": "11",
+        "time_index_end": "2026-01-01",
+        "time_index_size": "89",
+        "time_index_start": "2004-01-01",
+        "title": "demanda_global_consumo_publico",
+        "type": "number",
+        "units": "Millones de pesos a precios de 2004"
+      }
+    }
+  ],
+  "params": {
+    "identifiers": [
+      {
+        "dataset": "3",
+        "distribution": "3.2",
+        "id": "3.2_DGCP_D_2004_T_30"
+      }
+    ],
+    "ids": "3.2_DGCP_D_2004_T_30",
+    "limit": "1000",
+    "metadata": "full"
+  }
+}

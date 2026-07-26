@@ -1,0 +1,162 @@
+{
+  "count": 9,
+  "data": [
+    [
+      "2024-01-01",
+      4554.469620536896
+    ],
+    [
+      "2024-04-01",
+      -8671.411212153384
+    ],
+    [
+      "2024-07-01",
+      -14763.567140298896
+    ],
+    [
+      "2024-10-01",
+      -25287.855025423807
+    ],
+    [
+      "2025-01-01",
+      1704.7551192335086
+    ],
+    [
+      "2025-04-01",
+      -11455.46885027364
+    ],
+    [
+      "2025-07-01",
+      -14355.75364023738
+    ],
+    [
+      "2025-10-01",
+      -16770.73053917708
+    ],
+    [
+      "2026-01-01",
+      131.66151435603388
+    ]
+  ],
+  "meta": [
+    {
+      "end_date": "2026-01-01",
+      "frequency": "quarter",
+      "start_date": "2024-01-01"
+    },
+    {
+      "catalog": {
+        "description": "Catálogo de datos abiertos de la Subsecretaría de Programación Macroeconómica.",
+        "identifier": "sspm",
+        "issued": "2017-09-28",
+        "language": [
+          "SPA"
+        ],
+        "license": "Creative Commons Attribution 4.0",
+        "modified": "2017-09-28",
+        "publisher": {
+          "mbox": "datoseconomicos@mecon.gov.ar",
+          "name": "Subsecretaría de Programación Macroeconómica."
+        },
+        "spatial": "ARG",
+        "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+        "title": "Datos Programación Macroeconómica"
+      },
+      "dataset": {
+        "accessLevel": "ABIERTO",
+        "accrualPeriodicity": "R/P3M",
+        "contactPoint": {
+          "fn": "Subsecretaría de Programación Macroeconómica.",
+          "hasEmail": "datoseconomicos@mecon.gov.ar"
+        },
+        "description": "Componentes de la oferta y demanda globales, según la base 2004.",
+        "identifier": "4",
+        "issued": "2017-09-28",
+        "keyword": [
+          "actividad",
+          "cuentas nacionales",
+          "ccnn",
+          "oferta",
+          "demanda",
+          "base 2004"
+        ],
+        "landingPage": "https://www.economia.gob.ar/datos/",
+        "language": [
+          "SPA"
+        ],
+        "license": "Creative Commons Attribution 4.0",
+        "publisher": {
+          "mbox": "datoseconomicos@mecon.gov.ar",
+          "name": "Subsecretaría de Programación Macroeconómica"
+        },
+        "source": "Instituto Nacional de Estadística y Censos (INDEC)",
+        "spatial": "ARG",
+        "superTheme": [
+          "ECON"
+        ],
+        "temporal": "2004-01-01/2016-12-01",
+        "theme": [
+          {
+            "description": "Series de actividad: cuentas nacionales, consumo, producción, etc.",
+            "id": "actividad",
+            "label": "Actividad"
+          }
+        ],
+        "title": "Oferta y Demanda Globales. Base 2004"
+      },
+      "distribution": {
+        "accessURL": "https://www.economia.gob.ar/datos/",
+        "changed": "False",
+        "description": "Oferta y Demanda Globales por componente, a precios de comprador, en millones de pesos de 2004 y valores trimestrales.",
+        "downloadURL": "https://infra.datos.gob.ar/catalog/sspm/dataset/4/distribution/4.2/download/oferta-demanda-globales-precios-2004-valores-trimestrales-base-2004.csv",
+        "fileName": "oferta-demanda-globales-precios-2004-valores-trimestrales-base-2004.csv",
+        "format": "CSV",
+        "frequency": "R/P3M",
+        "identifier": "4.2",
+        "issued": "2017-09-28",
+        "last_hash": "aecf71d89d3bf98d1ce7e9c826be262e1fcd661e388512608d6ebfd8eccb15b0324400afa98d0507c8b4f6bea0559bd517beaad1d79ece25090564157e03b18c",
+        "title": "Oferta y Demanda Global, Precios constantes. Base 2004. Valores trimestrales"
+      },
+      "field": {
+        "available": "true",
+        "average": "-9434.877794826416",
+        "days_without_data": "116",
+        "description": "Discrepancia estadistica, en millones de pesos de 2004 y Trimestral",
+        "frequency": "R/P3M",
+        "hits_180_days": "0",
+        "hits_30_days": "0",
+        "hits_90_days": "0",
+        "hits_total": "1254",
+        "id": "4.2_DE_2004_T_24",
+        "is_percentage": false,
+        "is_updated": "True",
+        "last_pct_change": "-1.0078506725779457",
+        "last_value": "131.66151435603388",
+        "max_value": "4554.469620536896",
+        "min_value": "-25287.855025423807",
+        "representation_mode": "value",
+        "representation_mode_units": "Millones de pesos a precios de 2004",
+        "second_to_last_value": "-16770.73053917708",
+        "significant_figures": "14",
+        "time_index_end": "2026-01-01",
+        "time_index_size": "9",
+        "time_index_start": "2024-01-01",
+        "title": "discrepancia_estadistica",
+        "type": "number",
+        "units": "Millones de pesos a precios de 2004"
+      }
+    }
+  ],
+  "params": {
+    "identifiers": [
+      {
+        "dataset": "4",
+        "distribution": "4.2",
+        "id": "4.2_DE_2004_T_24"
+      }
+    ],
+    "ids": "4.2_DE_2004_T_24",
+    "limit": "1000",
+    "metadata": "full"
+  }
+}
