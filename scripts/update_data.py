@@ -259,6 +259,60 @@ def fetch_series(api_url: str, series_id: str) -> dict:
     return request_json(f"{api_url}/series/?{query}")
 
 
+def load_series_groups(path: pathlib.Path) -> dict[str, dict[str, str]]:
+    groups = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(groups, dict) or not groups:
+        raise RuntimeError("config/series_groups.json must contain a non-empty object")
+    for filename, columns in groups.items():
+        if (
+            not isinstance(filename, str)
+            or not filename.replace("_", "").isalnum()
+            or not isinstance(columns, dict)
+            or not columns
+        ):
+            raise RuntimeError("Series groups must use simple names and non-empty objects")
+        for column, series_id in columns.items():
+            if (
+                not isinstance(column, str)
+                or not column.replace("_", "").isalnum()
+                or not isinstance(series_id, str)
+                or not series_id
+            ):
+                raise RuntimeError("Group column names and series IDs must be strings")
+    return groups
+
+
+def grouped_series_csv(
+    columns: dict[str, str], payloads: dict[str, dict]
+) -> str:
+    values_by_column: dict[str, dict[str, object]] = {}
+    dates: set[str] = set()
+    for column, series_id in columns.items():
+        payload = payloads[series_id]
+        data = payload.get("data")
+        if not isinstance(data, list):
+            raise RuntimeError(f"Unexpected series response for {series_id}")
+        values: dict[str, object] = {}
+        for row in data:
+            if not isinstance(row, list) or len(row) != 2:
+                raise RuntimeError(f"Unexpected observation for {series_id}: {row!r}")
+            date, value = row
+            if not isinstance(date, str):
+                raise RuntimeError(f"Unexpected date for {series_id}: {date!r}")
+            values[date] = value
+            dates.add(date)
+        values_by_column[column] = values
+
+    output = io.StringIO(newline="")
+    writer = csv.writer(output, lineterminator="\n")
+    writer.writerow(["date", *columns.keys()])
+    for date in sorted(dates):
+        writer.writerow(
+            [date, *(values_by_column[column].get(date, "") for column in columns)]
+        )
+    return output.getvalue()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--api-url", default=DEFAULT_API_URL)
@@ -270,6 +324,11 @@ def main() -> int:
         "--categories-file",
         type=pathlib.Path,
         default=pathlib.Path("config/categories.json"),
+    )
+    parser.add_argument(
+        "--series-groups-file",
+        type=pathlib.Path,
+        default=pathlib.Path("config/series_groups.json"),
     )
     parser.add_argument("--page-size", type=int, default=1000)
     args = parser.parse_args()
@@ -299,7 +358,11 @@ def main() -> int:
     for filename, records in category_records.items():
         atomic_write(categories_dir / f"{filename}.csv", catalog_csv(records))
 
-    ids = configured_series(args.series_file)
+    groups = load_series_groups(args.series_groups_file)
+    grouped_ids = {
+        series_id for columns in groups.values() for series_id in columns.values()
+    }
+    ids = sorted(set(configured_series(args.series_file)) | grouped_ids)
     known_ids = {
         item.get("field", {}).get("id")
         for records in category_records.values()
@@ -316,18 +379,32 @@ def main() -> int:
             if path.name not in expected_files:
                 path.unlink()
 
+    payloads = {}
     for series_id in ids:
         print(f"Series: {series_id}", file=sys.stderr)
         payload = fetch_series(api_url, series_id)
+        payloads[series_id] = payload
         atomic_write(
             series_dir / f"{series_id}.json",
             json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         )
 
+    indicators_dir = args.output_dir / "indicators"
+    indicators_dir.mkdir(parents=True, exist_ok=True)
+    expected_indicator_files = {f"{filename}.csv" for filename in groups}
+    for path in indicators_dir.glob("*.csv"):
+        if path.name not in expected_indicator_files:
+            path.unlink()
+    for filename, columns in groups.items():
+        atomic_write(
+            indicators_dir / f"{filename}.csv",
+            grouped_series_csv(columns, payloads),
+        )
+
     total_rows = sum(len(records) for records in category_records.values())
     print(
         f"Updated {len(categories)} category CSVs ({total_rows:,} rows) "
-        f"and {len(ids)} selected series"
+        f"and {len(ids)} selected series in {len(groups)} grouped CSVs"
     )
     return 0
 

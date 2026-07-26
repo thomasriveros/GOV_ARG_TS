@@ -1,0 +1,32 @@
+{
+  "gdp_expenditure": {
+    "real_gdp": "4.2_OGP_2004_T_17",
+    "private_consumption": "4.2_MGCP_2004_T_25",
+    "public_consumption": "4.2_DGCP_2004_T_30",
+    "fixed_investment": "4.2_DGIT_2004_T_25",
+    "exports": "4.2_DGE_2004_T_26",
+    "imports": "4.2_OGI_2004_T_25",
+    "inventory_changes": "4.2_VE_2004_T_21",
+    "statistical_discrepancy": "4.2_DE_2004_T_24"
+  },
+  "gdp_expenditure_seasonally_adjusted": {
+    "real_gdp": "3.2_OGP_D_2004_T_17",
+    "private_consumption": "3.2_DGCP_D_2004_T_27",
+    "public_consumption": "3.2_DGCP_D_2004_T_30",
+    "fixed_investment": "3.2_DGI_D_2004_T_19",
+    "exports": "3.2_DGE_D_2004_T_26",
+    "imports": "3.2_OGI_D_2004_T_25"
+  },
+  "gdp_production_sectors": {
+    "real_gdp": "6.2_PIBPM_2004_T_38",
+    "agriculture": "6.2_AGCS_2004_T_39",
+    "mining": "6.2_EMC_2004_T_26",
+    "manufacturing": "6.2_IM_2004_T_23",
+    "construction": "6.2_C_2004_T_12",
+    "trade": "6.2_CMMR_2004_T_41",
+    "electricity_gas_water": "6.2_SEGA_2004_T_32",
+    "transport_communications": "6.2_TAC_2004_T_40",
+    "financial_intermediation": "6.2_IF_2004_T_25",
+    "public_administration": "6.2_APDPSSAO_2004_T_60"
+  }
+}
