@@ -14,6 +14,10 @@ Daily, focused economic snapshots from Argentina's official Time Series API.
 - `data/indicators/gdp_expenditure_seasonally_adjusted.csv`: seasonally adjusted
   real GDP and expenditure components.
 - `data/indicators/gdp_production_sectors.csv`: real GDP by major production sector.
+- `data/indicators/fiscal_primary_balance.csv`: monthly primary balance for the
+  nonfinancial National Public Sector in nominal millions of pesos and real
+  December 2016 millions of pesos. The real series uses the official national
+  CPI and therefore begins in December 2016.
 - `data/series/*.json`: full metadata and up to 1,000 observations for each series
   used by a group or listed in `config/series.txt`.
 

@@ -28,5 +28,14 @@
     "transport_communications": "6.2_TAC_2004_T_40",
     "financial_intermediation": "6.2_IF_2004_T_25",
     "public_administration": "6.2_APDPSSAO_2004_T_60"
+  },
+  "fiscal_primary_balance": {
+    "primary_balance_nominal_millions_ars": "452.3_RESULTADO_RIO_0_M_18_54",
+    "cpi_national_dec_2016_100": "145.3_INGNACNAL_DICI_M_15",
+    "primary_balance_real_dec_2016_millions_ars": {
+      "series_id": "452.3_RESULTADO_RIO_0_M_18_54",
+      "deflator_series_id": "145.3_INGNACNAL_DICI_M_15",
+      "deflator_base": 100
+    }
   }
 }
