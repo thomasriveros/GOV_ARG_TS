@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "24357.79257244973",
-        "days_without_data": "119",
+        "days_without_data": "120",
         "description": "Valor agregado bruto trimestral a precios de productor de intermediación financiera en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",

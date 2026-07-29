@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "670419.6820631389",
-        "days_without_data": "119",
+        "days_without_data": "120",
         "description": "PIB a precios de comprador, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
