@@ -434,13 +434,13 @@
         "frequency": "R/P3M",
         "identifier": "3.2",
         "issued": "2017-09-28",
-        "last_hash": "569a7f28c2ac082029634cd8d7ea15affea34102de5f31aa85842b9da4fb3895e82c1554ab194820a73cdba73babac3334404ee1938fb4258ee9327e35e3ca95",
+        "last_hash": "8ff65b03926d4a1973d88a5d98283bcf46915e2795603845d75dcbebe5aeb1be9c80997838e9f795e7e7d73df983215dce3cb01f6b1e3a6e3653f2375ed81f82",
         "title": "Oferta y Demanda Global. Precios constantes desestacionalizados. Base 2004. Valores trimestrales."
       },
       "field": {
         "available": "true",
         "average": "146687.82913629402",
-        "days_without_data": "119",
+        "days_without_data": "121",
         "description": "Exportación a precios de comprador, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
