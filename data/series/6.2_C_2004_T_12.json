@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "20508.862912147426",
-        "days_without_data": "121",
+        "days_without_data": "122",
         "description": "Valor agregado bruto trimestral a precios de productor de construcción en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",

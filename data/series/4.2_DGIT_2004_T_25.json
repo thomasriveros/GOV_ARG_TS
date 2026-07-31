@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "128889.51598439312",
-        "days_without_data": "121",
+        "days_without_data": "122",
         "description": "Inversion bruta interna fija, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
