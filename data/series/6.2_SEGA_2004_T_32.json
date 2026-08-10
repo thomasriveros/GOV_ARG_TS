@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "11605.903482733662",
-        "days_without_data": "130",
+        "days_without_data": "132",
         "description": "Valor agregado bruto trimestral a precios de productor de suministro de electricidad gas y agua en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",
