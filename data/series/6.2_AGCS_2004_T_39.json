@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "47535.58288048648",
-        "days_without_data": "132",
+        "days_without_data": "133",
         "description": "Valor agregado bruto trimestral a precios de productor, de agricultura ganaderia caza y silvicultura en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",
