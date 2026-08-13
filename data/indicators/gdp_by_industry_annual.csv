@@ -1,0 +1,463 @@
+date,series_id,component,component_label,component_type,value,unit
+2004-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,39125.19761309238,Millones de pesos a precios de 2004
+2004-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,1442.495602270655,Millones de pesos a precios de 2004
+2004-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,24321.80581929455,Millones de pesos a precios de 2004
+2004-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,91866.33049007082,Millones de pesos a precios de 2004
+2004-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,8702.405576795833,Millones de pesos a precios de 2004
+2004-01-01,6.1_C_2004_A_12,construction,Construcción,industry,14904.725389499732,Millones de pesos a precios de 2004
+2004-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,60034.595442528895,Millones de pesos a precios de 2004
+2004-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,6936.034247546362,Millones de pesos a precios de 2004
+2004-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,29789.900144942854,Millones de pesos a precios de 2004
+2004-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,15079.408740428742,Millones de pesos a precios de 2004
+2004-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,53084.365734705134,Millones de pesos a precios de 2004
+2004-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,21585.05448189437,Millones de pesos a precios de 2004
+2004-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,17057.398949338647,Millones de pesos a precios de 2004
+2004-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,13201.353477109184,Millones de pesos a precios de 2004
+2004-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,12253.539113760007,Millones de pesos a precios de 2004
+2004-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3042.848560114448,Millones de pesos a precios de 2004
+2004-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,412427.4593833926,Millones de pesos a precios de 2004
+2004-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,38460.33325159059,Millones de pesos a precios de 2004
+2004-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,30976.949123732003,Millones de pesos a precios de 2004
+2004-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,3250.4534476299987,Millones de pesos a precios de 2004
+2004-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,485115.1952063452,Millones de pesos a precios de 2004
+2005-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,46858.12510242009,Millones de pesos a precios de 2004
+2005-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,1331.620782209225,Millones de pesos a precios de 2004
+2005-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,24246.349120736744,Millones de pesos a precios de 2004
+2005-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,98685.71452141038,Millones de pesos a precios de 2004
+2005-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,9234.71842231087,Millones de pesos a precios de 2004
+2005-01-01,6.1_C_2004_A_12,construction,Construcción,industry,16763.24490688766,Millones de pesos a precios de 2004
+2005-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,66288.7238799301,Millones de pesos a precios de 2004
+2005-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,7776.009519820214,Millones de pesos a precios de 2004
+2005-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,34242.69038119117,Millones de pesos a precios de 2004
+2005-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,16562.883720984777,Millones de pesos a precios de 2004
+2005-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,56102.65294901571,Millones de pesos a precios de 2004
+2005-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,22732.495947438063,Millones de pesos a precios de 2004
+2005-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,18106.094212813263,Millones de pesos a precios de 2004
+2005-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,14515.933227320103,Millones de pesos a precios de 2004
+2005-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,13557.131452507483,Millones de pesos a precios de 2004
+2005-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3298.944187403587,Millones de pesos a precios de 2004
+2005-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,450303.3323343994,Millones de pesos a precios de 2004
+2005-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,40213.07590400936,Millones de pesos a precios de 2004
+2005-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,33630.702160220506,Millones de pesos a precios de 2004
+2005-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,3908.83210478496,Millones de pesos a precios de 2004
+2005-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,528055.9425034143,Millones de pesos a precios de 2004
+2006-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,45805.37562832339,Millones de pesos a precios de 2004
+2006-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2131.1087136648785,Millones de pesos a precios de 2004
+2006-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,25556.078416780616,Millones de pesos a precios de 2004
+2006-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,107665.90371949118,Millones de pesos a precios de 2004
+2006-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,9774.92253662284,Millones de pesos a precios de 2004
+2006-01-01,6.1_C_2004_A_12,construction,Construcción,industry,18837.79347981721,Millones de pesos a precios de 2004
+2006-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,73216.7165598529,Millones de pesos a precios de 2004
+2006-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,8696.814427959234,Millones de pesos a precios de 2004
+2006-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,38535.78920721445,Millones de pesos a precios de 2004
+2006-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,18742.70776293568,Millones de pesos a precios de 2004
+2006-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,59833.81991435764,Millones de pesos a precios de 2004
+2006-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,23503.29936912913,Millones de pesos a precios de 2004
+2006-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,18842.31659498892,Millones de pesos a precios de 2004
+2006-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,14861.783421853544,Millones de pesos a precios de 2004
+2006-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,14880.27964289383,Millones de pesos a precios de 2004
+2006-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3604.3769464309785,Millones de pesos a precios de 2004
+2006-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,484489.0863423164,Millones de pesos a precios de 2004
+2006-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,42959.67932163097,Millones de pesos a precios de 2004
+2006-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,38595.56463460236,Millones de pesos a precios de 2004
+2006-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,4505.073922181759,Millones de pesos a precios de 2004
+2006-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,570549.4042207315,Millones de pesos a precios de 2004
+2007-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,50114.1663493556,Millones de pesos a precios de 2004
+2007-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,1914.9350428182915,Millones de pesos a precios de 2004
+2007-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,24931.182361849013,Millones de pesos a precios de 2004
+2007-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,115777.4179265962,Millones de pesos a precios de 2004
+2007-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,10025.095581477028,Millones de pesos a precios de 2004
+2007-01-01,6.1_C_2004_A_12,construction,Construcción,industry,20865.051917051813,Millones de pesos a precios de 2004
+2007-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,81753.51691232949,Millones de pesos a precios de 2004
+2007-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,9619.00318387449,Millones de pesos a precios de 2004
+2007-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,43428.48367638184,Millones de pesos a precios de 2004
+2007-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,21354.732198493024,Millones de pesos a precios de 2004
+2007-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,63189.93130872825,Millones de pesos a precios de 2004
+2007-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,24825.234280278877,Millones de pesos a precios de 2004
+2007-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,19928.12114987165,Millones de pesos a precios de 2004
+2007-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,15818.544515334288,Millones de pesos a precios de 2004
+2007-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,16077.786429141064,Millones de pesos a precios de 2004
+2007-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3690.759269493688,Millones de pesos a precios de 2004
+2007-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,523313.9621030746,Millones de pesos a precios de 2004
+2007-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,47854.13653867499,Millones de pesos a precios de 2004
+2007-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,45286.03149862605,Millones de pesos a precios de 2004
+2007-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,5488.372505714981,Millones de pesos a precios de 2004
+2007-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,621942.5026460907,Millones de pesos a precios de 2004
+2008-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,48875.16680879251,Millones de pesos a precios de 2004
+2008-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2016.6714410300533,Millones de pesos a precios de 2004
+2008-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,24648.436811774427,Millones de pesos a precios de 2004
+2008-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,119969.83451865804,Millones de pesos a precios de 2004
+2008-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,10510.92802697282,Millones de pesos a precios de 2004
+2008-01-01,6.1_C_2004_A_12,construction,Construcción,industry,21741.135452033992,Millones de pesos a precios de 2004
+2008-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,86078.7651779677,Millones de pesos a precios de 2004
+2008-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,9666.863447168766,Millones de pesos a precios de 2004
+2008-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,45790.30308878436,Millones de pesos a precios de 2004
+2008-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,22684.90863284898,Millones de pesos a precios de 2004
+2008-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,66662.10301081359,Millones de pesos a precios de 2004
+2008-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,25848.22001636292,Millones de pesos a precios de 2004
+2008-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,20762.19905320231,Millones de pesos a precios de 2004
+2008-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,16850.53507835615,Millones de pesos a precios de 2004
+2008-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,16888.13083858563,Millones de pesos a precios de 2004
+2008-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3825.0794198625354,Millones de pesos a precios de 2004
+2008-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,542819.2808232147,Millones de pesos a precios de 2004
+2008-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,49857.98246288173,Millones de pesos a precios de 2004
+2008-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,48235.98587329029,Millones de pesos a precios de 2004
+2008-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,6262.910581824838,Millones de pesos a precios de 2004
+2008-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,647176.1597412117,Millones de pesos a precios de 2004
+2009-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,35993.75230144633,Millones de pesos a precios de 2004
+2009-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,1614.5748666015002,Millones de pesos a precios de 2004
+2009-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,24709.877893311448,Millones de pesos a precios de 2004
+2009-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,111260.23518814884,Millones de pesos a precios de 2004
+2009-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,10455.74846829224,Millones de pesos a precios de 2004
+2009-01-01,6.1_C_2004_A_12,construction,Construcción,industry,19065.801680248733,Millones de pesos a precios de 2004
+2009-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,79129.5172437434,Millones de pesos a precios de 2004
+2009-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,9409.32945439862,Millones de pesos a precios de 2004
+2009-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,45485.3197353969,Millones de pesos a precios de 2004
+2009-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,22648.52109232751,Millones de pesos a precios de 2004
+2009-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,64814.01951666127,Millones de pesos a precios de 2004
+2009-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,26689.4561052474,Millones de pesos a precios de 2004
+2009-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,21533.535011164437,Millones de pesos a precios de 2004
+2009-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,18034.886612587867,Millones de pesos a precios de 2004
+2009-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,16927.393895052413,Millones de pesos a precios de 2004
+2009-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3911.8411173582754,Millones de pesos a precios de 2004
+2009-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,511683.8101819872,Millones de pesos a precios de 2004
+2009-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,46530.71196868257,Millones de pesos a precios de 2004
+2009-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,45766.59128209168,Millones de pesos a precios de 2004
+2009-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,4891.762980113051,Millones de pesos a precios de 2004
+2009-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,608872.8764128746,Millones de pesos a precios de 2004
+2010-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,50813.9789360831,Millones de pesos a precios de 2004
+2010-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,1658.6552075732957,Millones de pesos a precios de 2004
+2010-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,25098.792186767903,Millones de pesos a precios de 2004
+2010-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,123396.43715671636,Millones de pesos a precios de 2004
+2010-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,10637.852591235416,Millones de pesos a precios de 2004
+2010-01-01,6.1_C_2004_A_12,construction,Construcción,industry,20929.95254310365,Millones de pesos a precios de 2004
+2010-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,89158.9001538441,Millones de pesos a precios de 2004
+2010-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10299.315275870696,Millones de pesos a precios de 2004
+2010-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,49529.92653185878,Millones de pesos a precios de 2004
+2010-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,22762.30584297354,Millones de pesos a precios de 2004
+2010-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,68196.93431188432,Millones de pesos a precios de 2004
+2010-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,27611.09572753942,Millones de pesos a precios de 2004
+2010-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,22330.856352662093,Millones de pesos a precios de 2004
+2010-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,18807.210698548035,Millones de pesos a precios de 2004
+2010-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,17837.542832139967,Millones de pesos a precios de 2004
+2010-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3927.7803038022894,Millones de pesos a precios de 2004
+2010-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,562997.536652603,Millones de pesos a precios de 2004
+2010-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,50977.76160049579,Millones de pesos a precios de 2004
+2010-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,49704.12499756963,Millones de pesos a precios de 2004
+2010-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,6844.256191129975,Millones de pesos a precios de 2004
+2010-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,670523.6794417982,Millones de pesos a precios de 2004
+2011-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,49453.10453323961,Millones de pesos a precios de 2004
+2011-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,1745.240448311844,Millones de pesos a precios de 2004
+2011-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,23635.522772553715,Millones de pesos a precios de 2004
+2011-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,132856.7595580958,Millones de pesos a precios de 2004
+2011-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,11142.25196222835,Millones de pesos a precios de 2004
+2011-01-01,6.1_C_2004_A_12,construction,Construcción,industry,22927.82777934025,Millones de pesos a precios de 2004
+2011-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,98683.72333929045,Millones de pesos a precios de 2004
+2011-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10821.294628064548,Millones de pesos a precios de 2004
+2011-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,52202.73587607613,Millones de pesos a precios de 2004
+2011-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,24999.676073100472,Millones de pesos a precios de 2004
+2011-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,71231.64827138706,Millones de pesos a precios de 2004
+2011-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,28489.02845654908,Millones de pesos a precios de 2004
+2011-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,23007.26654341677,Millones de pesos a precios de 2004
+2011-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,19801.099630271205,Millones de pesos a precios de 2004
+2011-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18547.650371522468,Millones de pesos a precios de 2004
+2011-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3975.440192840488,Millones de pesos a precios de 2004
+2011-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,593520.2704362883,Millones de pesos a precios de 2004
+2011-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,54096.72938625189,Millones de pesos a precios de 2004
+2011-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,54741.09488644148,Millones de pesos a precios de 2004
+2011-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,8423.50251161971,Millones de pesos a precios de 2004
+2011-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,710781.5972206014,Millones de pesos a precios de 2004
+2012-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,42850.92799268623,Millones de pesos a precios de 2004
+2012-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,1755.551750817422,Millones de pesos a precios de 2004
+2012-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,23350.224482872127,Millones de pesos a precios de 2004
+2012-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,128986.20871831846,Millones de pesos a precios de 2004
+2012-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,11661.916200276852,Millones de pesos a precios de 2004
+2012-01-01,6.1_C_2004_A_12,construction,Construcción,industry,22369.493752098664,Millones de pesos a precios de 2004
+2012-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,95945.6136668374,Millones de pesos a precios de 2004
+2012-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10970.183402159768,Millones de pesos a precios de 2004
+2012-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,52514.830030729936,Millones de pesos a precios de 2004
+2012-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,26835.981238357068,Millones de pesos a precios de 2004
+2012-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,70808.66585754692,Millones de pesos a precios de 2004
+2012-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,29346.30987758123,Millones de pesos a precios de 2004
+2012-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,23770.454300543766,Millones de pesos a precios de 2004
+2012-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,20892.069976783565,Millones de pesos a precios de 2004
+2012-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18873.51321339319,Millones de pesos a precios de 2004
+2012-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4154.344538903053,Millones de pesos a precios de 2004
+2012-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,585086.2889999056,Millones de pesos a precios de 2004
+2012-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,54887.077514099845,Millones de pesos a precios de 2004
+2012-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,55642.1182120778,Millones de pesos a precios de 2004
+2012-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,7870.504732865471,Millones de pesos a precios de 2004
+2012-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,703485.9894589488,Millones de pesos a precios de 2004
+2013-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,47568.32043530539,Millones de pesos a precios de 2004
+2013-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2157.4752327712067,Millones de pesos a precios de 2004
+2013-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,22405.166401779086,Millones de pesos a precios de 2004
+2013-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,130925.55718475766,Millones de pesos a precios de 2004
+2013-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,11718.362772133809,Millones de pesos a precios de 2004
+2013-01-01,6.1_C_2004_A_12,construction,Construcción,industry,22346.005510300736,Millones de pesos a precios de 2004
+2013-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,98339.46669617642,Millones de pesos a precios de 2004
+2013-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10971.846171817166,Millones de pesos a precios de 2004
+2013-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,53754.41867265127,Millones de pesos a precios de 2004
+2013-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,27596.46555518736,Millones de pesos a precios de 2004
+2013-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,71327.85621946614,Millones de pesos a precios de 2004
+2013-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,30121.33739909718,Millones de pesos a precios de 2004
+2013-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,24451.71895926986,Millones de pesos a precios de 2004
+2013-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,21453.483150336047,Millones de pesos a precios de 2004
+2013-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18610.973580207927,Millones de pesos a precios de 2004
+2013-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4247.095592648673,Millones de pesos a precios de 2004
+2013-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,597995.5495339059,Millones de pesos a precios de 2004
+2013-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,56060.52471514799,Millones de pesos a precios de 2004
+2013-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,58370.69470523096,Millones de pesos a precios de 2004
+2013-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,7980.336348530209,Millones de pesos a precios de 2004
+2013-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,720407.1053028151,Millones de pesos a precios de 2004
+2014-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,49085.011379802265,Millones de pesos a precios de 2004
+2014-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2184.3989094518256,Millones de pesos a precios de 2004
+2014-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,22755.051961728303,Millones de pesos a precios de 2004
+2014-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,124308.5175411988,Millones de pesos a precios de 2004
+2014-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,11948.776729830952,Millones de pesos a precios de 2004
+2014-01-01,6.1_C_2004_A_12,construction,Construcción,industry,21895.06199273249,Millones de pesos a precios de 2004
+2014-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,91604.65198943268,Millones de pesos a precios de 2004
+2014-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10842.050882143056,Millones de pesos a precios de 2004
+2014-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,54167.99399940534,Millones de pesos a precios de 2004
+2014-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,26838.546134132863,Millones de pesos a precios de 2004
+2014-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,70964.22220202339,Millones de pesos a precios de 2004
+2014-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,31054.512363581893,Millones de pesos a precios de 2004
+2014-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,25134.91559570929,Millones de pesos a precios de 2004
+2014-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,21822.447714710783,Millones de pesos a precios de 2004
+2014-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18252.541911003005,Millones de pesos a precios de 2004
+2014-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4258.637275943524,Millones de pesos a precios de 2004
+2014-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,587117.3385828304,Millones de pesos a precios de 2004
+2014-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,53890.61087707513,Millones de pesos a precios de 2004
+2014-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,54409.54092063088,Millones de pesos a precios de 2004
+2014-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,6888.555582828707,Millones de pesos a precios de 2004
+2014-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,702306.0459633651,Millones de pesos a precios de 2004
+2015-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,52896.780272656266,Millones de pesos a precios de 2004
+2015-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2239.349315269071,Millones de pesos a precios de 2004
+2015-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,23129.97476316396,Millones de pesos a precios de 2004
+2015-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,125260.6366576108,Millones de pesos a precios de 2004
+2015-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12477.406837640036,Millones de pesos a precios de 2004
+2015-01-01,6.1_C_2004_A_12,construction,Construcción,industry,22553.656100760152,Millones de pesos a precios de 2004
+2015-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,94849.6998593867,Millones de pesos a precios de 2004
+2015-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10991.96334873823,Millones de pesos a precios de 2004
+2015-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,55810.94836498801,Millones de pesos a precios de 2004
+2015-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,27179.520306666574,Millones de pesos a precios de 2004
+2015-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,72248.27288660759,Millones de pesos a precios de 2004
+2015-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,32220.09435021105,Millones de pesos a precios de 2004
+2015-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,26020.211756723067,Millones de pesos a precios de 2004
+2015-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,22460.156378803887,Millones de pesos a precios de 2004
+2015-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18326.109827686552,Millones de pesos a precios de 2004
+2015-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4275.450726070927,Millones de pesos a precios de 2004
+2015-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,602940.2317529828,Millones de pesos a precios de 2004
+2015-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,55880.44790958489,Millones de pesos a precios de 2004
+2015-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,55432.532765958254,Millones de pesos a precios de 2004
+2015-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,7233.934209513808,Millones de pesos a precios de 2004
+2015-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,721487.1466380397,Millones de pesos a precios de 2004
+2016-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,50299.08324876826,Millones de pesos a precios de 2004
+2016-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2236.306335900309,Millones de pesos a precios de 2004
+2016-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,21862.65627886452,Millones de pesos a precios de 2004
+2016-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,118244.61342384137,Millones de pesos a precios de 2004
+2016-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12600.940827127555,Millones de pesos a precios de 2004
+2016-01-01,6.1_C_2004_A_12,construction,Construcción,industry,20028.86015633439,Millones de pesos a precios de 2004
+2016-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,91764.11920972324,Millones de pesos a precios de 2004
+2016-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,11201.886588818024,Millones de pesos a precios de 2004
+2016-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,57708.77086314964,Millones de pesos a precios de 2004
+2016-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,26319.57363500976,Millones de pesos a precios de 2004
+2016-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,72163.89567058992,Millones de pesos a precios de 2004
+2016-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,32997.11317957069,Millones de pesos a precios de 2004
+2016-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,26663.947829611883,Millones de pesos a precios de 2004
+2016-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,23020.785016695703,Millones de pesos a precios de 2004
+2016-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18266.590833222974,Millones de pesos a precios de 2004
+2016-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4243.912389617724,Millones de pesos a precios de 2004
+2016-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,589623.0554868459,Millones de pesos a precios de 2004
+2016-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,55723.27771425227,Millones de pesos a precios de 2004
+2016-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,53591.14453811453,Millones de pesos a precios de 2004
+2016-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,7540.370858449137,Millones de pesos a precios de 2004
+2016-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,706477.8485976618,Millones de pesos a precios de 2004
+2017-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,51789.23521540001,Millones de pesos a precios de 2004
+2017-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2556.0325030378435,Millones de pesos a precios de 2004
+2017-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,21089.406499488985,Millones de pesos a precios de 2004
+2017-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,121288.313106043,Millones de pesos a precios de 2004
+2017-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12473.812026471103,Millones de pesos a precios de 2004
+2017-01-01,6.1_C_2004_A_12,construction,Construcción,industry,21863.38518725173,Millones de pesos a precios de 2004
+2017-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,94786.91065418682,Millones de pesos a precios de 2004
+2017-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,11521.578223919096,Millones de pesos a precios de 2004
+2017-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,59007.8749767172,Millones de pesos a precios de 2004
+2017-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,27639.306212625765,Millones de pesos a precios de 2004
+2017-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,74337.12542002965,Millones de pesos a precios de 2004
+2017-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,33249.26488037889,Millones de pesos a precios de 2004
+2017-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,26983.06296800083,Millones de pesos a precios de 2004
+2017-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,23484.42183436277,Millones de pesos a precios de 2004
+2017-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18590.354669729564,Millones de pesos a precios de 2004
+2017-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4127.060775704637,Millones de pesos a precios de 2004
+2017-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,604787.145153348,Millones de pesos a precios de 2004
+2017-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,57422.63250636024,Millones de pesos a precios de 2004
+2017-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,55316.90157612031,Millones de pesos a precios de 2004
+2017-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,8863.268526995527,Millones de pesos a precios de 2004
+2017-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,726389.947762824,Millones de pesos a precios de 2004
+2018-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,43726.2893623112,Millones de pesos a precios de 2004
+2018-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2694.6110769394327,Millones de pesos a precios de 2004
+2018-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,21268.121232746973,Millones de pesos a precios de 2004
+2018-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,115460.50355243984,Millones de pesos a precios de 2004
+2018-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12489.212749004975,Millones de pesos a precios de 2004
+2018-01-01,6.1_C_2004_A_12,construction,Construcción,industry,22108.484489572314,Millones de pesos a precios de 2004
+2018-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,90986.40630086335,Millones de pesos a precios de 2004
+2018-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,11473.034134758029,Millones de pesos a precios de 2004
+2018-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,57138.81789430995,Millones de pesos a precios de 2004
+2018-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,28668.03512145203,Millones de pesos a precios de 2004
+2018-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,75313.92739869372,Millones de pesos a precios de 2004
+2018-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,33274.72417115945,Millones de pesos a precios de 2004
+2018-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,27476.48512442299,Millones de pesos a precios de 2004
+2018-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,23856.66875068058,Millones de pesos a precios de 2004
+2018-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,18436.274900805765,Millones de pesos a precios de 2004
+2018-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4161.0923947422725,Millones de pesos a precios de 2004
+2018-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,588532.688654903,Millones de pesos a precios de 2004
+2018-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,56232.52764847026,Millones de pesos a precios de 2004
+2018-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,54209.13071215756,Millones de pesos a precios de 2004
+2018-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,8403.095963981748,Millones de pesos a precios de 2004
+2018-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,707377.4429795125,Millones de pesos a precios de 2004
+2019-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,53948.68674444055,Millones de pesos a precios de 2004
+2019-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2422.716307525776,Millones de pesos a precios de 2004
+2019-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,21571.218143783564,Millones de pesos a precios de 2004
+2019-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,108352.11939643786,Millones de pesos a precios de 2004
+2019-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12106.938518177973,Millones de pesos a precios de 2004
+2019-01-01,6.1_C_2004_A_12,construction,Construcción,industry,21173.8842588173,Millones de pesos a precios de 2004
+2019-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,84019.7679057372,Millones de pesos a precios de 2004
+2019-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,11480.623836061051,Millones de pesos a precios de 2004
+2019-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,56737.21082552566,Millones de pesos a precios de 2004
+2019-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,25331.14940718917,Millones de pesos a precios de 2004
+2019-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,74614.15359760652,Millones de pesos a precios de 2004
+2019-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,33557.52228703082,Millones de pesos a precios de 2004
+2019-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,27631.195136282902,Millones de pesos a precios de 2004
+2019-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,23874.34333924097,Millones de pesos a precios de 2004
+2019-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,17859.57012168211,Millones de pesos a precios de 2004
+2019-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4362.31282872952,Millones de pesos a precios de 2004
+2019-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,579043.412654269,Millones de pesos a precios de 2004
+2019-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,56113.49020574462,Millones de pesos a precios de 2004
+2019-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,51510.59780441872,Millones de pesos a precios de 2004
+2019-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,6556.302923527618,Millones de pesos a precios de 2004
+2019-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,693223.80358796,Millones de pesos a precios de 2004
+2020-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,50118.764229646,Millones de pesos a precios de 2004
+2020-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2017.2022086039317,Millones de pesos a precios de 2004
+2020-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,19322.61592618263,Millones de pesos a precios de 2004
+2020-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,100012.84983954762,Millones de pesos a precios de 2004
+2020-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12281.784862218165,Millones de pesos a precios de 2004
+2020-01-01,6.1_C_2004_A_12,construction,Construcción,industry,16435.060168248157,Millones de pesos a precios de 2004
+2020-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,79590.93788848998,Millones de pesos a precios de 2004
+2020-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,5850.202767877232,Millones de pesos a precios de 2004
+2020-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,47111.2722523563,Millones de pesos a precios de 2004
+2020-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,25106.0815453247,Millones de pesos a precios de 2004
+2020-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,70369.14041606506,Millones de pesos a precios de 2004
+2020-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,31076.77119853669,Millones de pesos a precios de 2004
+2020-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,26316.195218146822,Millones de pesos a precios de 2004
+2020-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,21582.07294099561,Millones de pesos a precios de 2004
+2020-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,10953.997908484816,Millones de pesos a precios de 2004
+2020-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3547.296197810748,Millones de pesos a precios de 2004
+2020-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,521692.2455685345,Millones de pesos a precios de 2004
+2020-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,49805.93426699189,Millones de pesos a precios de 2004
+2020-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,47188.4054686486,Millones de pesos a precios de 2004
+2020-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,5904.70084622121,Millones de pesos a precios de 2004
+2020-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,624591.2861503961,Millones de pesos a precios de 2004
+2021-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,50706.01721467522,Millones de pesos a precios de 2004
+2021-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2401.7593386257067,Millones de pesos a precios de 2004
+2021-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,21148.699394930143,Millones de pesos a precios de 2004
+2021-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,115784.762921455,Millones de pesos a precios de 2004
+2021-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12683.674422254826,Millones de pesos a precios de 2004
+2021-01-01,6.1_C_2004_A_12,construction,Construcción,industry,21210.25840950285,Millones de pesos a precios de 2004
+2021-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,90360.24989100693,Millones de pesos a precios de 2004
+2021-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,7497.590977412219,Millones de pesos a precios de 2004
+2021-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,50415.22458280521,Millones de pesos a precios de 2004
+2021-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,25246.437642197718,Millones de pesos a precios de 2004
+2021-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,76616.28329803878,Millones de pesos a precios de 2004
+2021-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,32752.561552147024,Millones de pesos a precios de 2004
+2021-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,27248.273063385343,Millones de pesos a precios de 2004
+2021-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,23920.26195134901,Millones de pesos a precios de 2004
+2021-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,14565.205408621125,Millones de pesos a precios de 2004
+2021-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,3697.200535255996,Millones de pesos a precios de 2004
+2021-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,576254.460603663,Millones de pesos a precios de 2004
+2021-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,53151.43181073685,Millones de pesos a precios de 2004
+2021-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,52837.33283189432,Millones de pesos a precios de 2004
+2021-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,7566.708787652224,Millones de pesos a precios de 2004
+2021-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,689809.9340339465,Millones de pesos a precios de 2004
+2022-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,48480.41087967493,Millones de pesos a precios de 2004
+2022-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2458.780701748557,Millones de pesos a precios de 2004
+2022-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,23751.636608887107,Millones de pesos a precios de 2004
+2022-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,121258.57468695613,Millones de pesos a precios de 2004
+2022-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,13023.602079731694,Millones de pesos a precios de 2004
+2022-01-01,6.1_C_2004_A_12,construction,Construcción,industry,22468.63778955804,Millones de pesos a precios de 2004
+2022-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,95781.88375676313,Millones de pesos a precios de 2004
+2022-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10043.70841824648,Millones de pesos a precios de 2004
+2022-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,54409.557138156175,Millones de pesos a precios de 2004
+2022-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,25269.55667906487,Millones de pesos a precios de 2004
+2022-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,80408.31498047561,Millones de pesos a precios de 2004
+2022-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,34935.88632173849,Millones de pesos a precios de 2004
+2022-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,28416.807422428312,Millones de pesos a precios de 2004
+2022-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,24223.271053670185,Millones de pesos a precios de 2004
+2022-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,15847.171657287652,Millones de pesos a precios de 2004
+2022-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4038.281982567515,Millones de pesos a precios de 2004
+2022-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,604816.0821569548,Millones de pesos a precios de 2004
+2022-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,60498.651325144776,Millones de pesos a precios de 2004
+2022-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,57508.97755194359,Millones de pesos a precios de 2004
+2022-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,8517.922692039914,Millones de pesos a precios de 2004
+2022-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,731341.6337260832,Millones de pesos a precios de 2004
+2023-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,36658.46161355734,Millones de pesos a precios de 2004
+2023-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2358.1332522197663,Millones de pesos a precios de 2004
+2023-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,25734.63201330548,Millones de pesos a precios de 2004
+2023-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,118776.41416848192,Millones de pesos a precios de 2004
+2023-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12933.390842671126,Millones de pesos a precios de 2004
+2023-01-01,6.1_C_2004_A_12,construction,Construcción,industry,22672.90487996375,Millones de pesos a precios de 2004
+2023-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,95935.65477930824,Millones de pesos a precios de 2004
+2023-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,10630.702994992123,Millones de pesos a precios de 2004
+2023-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,53985.8850759386,Millones de pesos a precios de 2004
+2023-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,24575.54772292097,Millones de pesos a precios de 2004
+2023-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,81660.19768479226,Millones de pesos a precios de 2004
+2023-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,35712.86294330939,Millones de pesos a precios de 2004
+2023-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,29099.146895887512,Millones de pesos a precios de 2004
+2023-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,24582.66274329724,Millones de pesos a precios de 2004
+2023-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,16185.81143730568,Millones de pesos a precios de 2004
+2023-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4086.144342239362,Millones de pesos a precios de 2004
+2023-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,595588.5533901907,Millones de pesos a precios de 2004
+2023-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,57012.21342917373,Millones de pesos a precios de 2004
+2023-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,57079.57613383225,Millones de pesos a precios de 2004
+2023-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,8125.382284141368,Millones de pesos a precios de 2004
+2023-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,717805.7252373381,Millones de pesos a precios de 2004
+2024-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,48458.69198917112,Millones de pesos a precios de 2004
+2024-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2642.190395608961,Millones de pesos a precios de 2004
+2024-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,27650.82335613223,Millones de pesos a precios de 2004
+2024-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,108240.70101222064,Millones de pesos a precios de 2004
+2024-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,12946.959106122438,Millones de pesos a precios de 2004
+2024-01-01,6.1_C_2004_A_12,construction,Construcción,industry,18663.893672459963,Millones de pesos a precios de 2004
+2024-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,89007.50493496432,Millones de pesos a precios de 2004
+2024-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,11195.578036852192,Millones de pesos a precios de 2004
+2024-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,54405.68717876414,Millones de pesos a precios de 2004
+2024-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,23556.25981268575,Millones de pesos a precios de 2004
+2024-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,81415.76717738033,Millones de pesos a precios de 2004
+2024-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,35249.089240575384,Millones de pesos a precios de 2004
+2024-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,29277.807751841818,Millones de pesos a precios de 2004
+2024-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,24542.96988290356,Millones de pesos a precios de 2004
+2024-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,15656.280518857056,Millones de pesos a precios de 2004
+2024-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4087.36570157401,Millones de pesos a precios de 2004
+2024-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,586997.5697681139,Millones de pesos a precios de 2004
+2024-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,58597.32868591172,Millones de pesos a precios de 2004
+2024-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,55268.61491513084,Millones de pesos a precios de 2004
+2024-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,7124.371189356587,Millones de pesos a precios de 2004
+2024-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,707987.8845585131,Millones de pesos a precios de 2004
+2025-01-01,6.1_AGCS_2004_A_39,agriculture_forestry,"Agricultura, ganadería, caza y silvicultura",industry,51907.56232500724,Millones de pesos a precios de 2004
+2025-01-01,6.1_P_2004_A_5,fishing,Pesca,industry,2327.3916631596294,Millones de pesos a precios de 2004
+2025-01-01,6.1_EMC_2004_A_26,mining_quarrying,Explotación de minas y canteras,industry,29875.761068054708,Millones de pesos a precios de 2004
+2025-01-01,6.1_IM_2004_A_23,manufacturing,Industria manufacturera,industry,109206.94094941198,Millones de pesos a precios de 2004
+2025-01-01,6.1_SEGA_2004_A_32,electricity_gas_water,"Suministro de electricidad, gas y agua",industry,13035.230438583045,Millones de pesos a precios de 2004
+2025-01-01,6.1_C_2004_A_12,construction,Construcción,industry,19441.92500963841,Millones de pesos a precios de 2004
+2025-01-01,6.1_CMMR_2004_A_41,trade_repairs,"Comercio mayorista, minorista y reparaciones",industry,92345.5189107658,Millones de pesos a precios de 2004
+2025-01-01,6.1_HR_2004_A_20,hotels_restaurants,Hoteles y restaurantes,industry,12134.17195170517,Millones de pesos a precios de 2004
+2025-01-01,6.1_TAC_2004_A_40,transport_storage_communications,"Transporte, almacenamiento y comunicaciones",industry,55544.05854461144,Millones de pesos a precios de 2004
+2025-01-01,6.1_IF_2004_A_25,financial_intermediation,Intermediación financiera,industry,29449.450930005085,Millones de pesos a precios de 2004
+2025-01-01,6.1_AIEA_2004_A_48,real_estate_business_rental,"Actividades inmobiliarias, empresariales y de alquiler",industry,84345.82226401531,Millones de pesos a precios de 2004
+2025-01-01,6.1_APDPSSAO_2004_A_60,public_administration_defense_social_security,"Administración pública, defensa y seguridad social obligatoria",industry,34818.42526726087,Millones de pesos a precios de 2004
+2025-01-01,6.1_E_2004_A_10,education,Enseñanza,industry,29390.336585661,Millones de pesos a precios de 2004
+2025-01-01,6.1_SSS_2004_A_24,health_social_services,Servicios sociales y de salud,industry,24486.66695617803,Millones de pesos a precios de 2004
+2025-01-01,6.1_OASCSP_2004_A_60,other_community_social_personal_services,"Otras actividades de servicios comunitarias, sociales y personales",industry,15720.14482931807,Millones de pesos a precios de 2004
+2025-01-01,6.1_HPSD_2004_A_32,private_households_domestic_service,Hogares privados con servicio doméstico,industry,4067.5658779877617,Millones de pesos a precios de 2004
+2025-01-01,6.1_VABPB_2004_A_36,gross_value_added_basic_prices,Valor agregado bruto a precios básicos,subtotal,608096.9735713635,Millones de pesos a precios de 2004
+2025-01-01,6.1_IPNS_2004_A_35,net_product_taxes,Otros impuestos a los productos netos de subsidios,bridge,63846.75266411383,Millones de pesos a precios de 2004
+2025-01-01,6.1_IVA_2004_A_23,value_added_tax,Impuesto al valor agregado,bridge,58266.67645639597,Millones de pesos a precios de 2004
+2025-01-01,6.1_DI_2004_A_20,import_duties,Derechos de importación,bridge,9518.310680435565,Millones de pesos a precios de 2004
+2025-01-01,6.1_PIBPM_2004_A_38,gdp_market_prices,Producto interno bruto a precios de mercado,total,739728.7133723088,Millones de pesos a precios de 2004

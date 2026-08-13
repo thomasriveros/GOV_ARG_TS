@@ -1,0 +1,144 @@
+{
+  "gdp_by_industry_annual": {
+    "unit": "Millones de pesos a precios de 2004",
+    "series": {
+      "agriculture_forestry": {
+        "series_id": "6.1_AGCS_2004_A_39",
+        "label": "Agricultura, ganadería, caza y silvicultura",
+        "component_type": "industry"
+      },
+      "fishing": {
+        "series_id": "6.1_P_2004_A_5",
+        "label": "Pesca",
+        "component_type": "industry"
+      },
+      "mining_quarrying": {
+        "series_id": "6.1_EMC_2004_A_26",
+        "label": "Explotación de minas y canteras",
+        "component_type": "industry"
+      },
+      "manufacturing": {
+        "series_id": "6.1_IM_2004_A_23",
+        "label": "Industria manufacturera",
+        "component_type": "industry"
+      },
+      "electricity_gas_water": {
+        "series_id": "6.1_SEGA_2004_A_32",
+        "label": "Suministro de electricidad, gas y agua",
+        "component_type": "industry"
+      },
+      "construction": {
+        "series_id": "6.1_C_2004_A_12",
+        "label": "Construcción",
+        "component_type": "industry"
+      },
+      "trade_repairs": {
+        "series_id": "6.1_CMMR_2004_A_41",
+        "label": "Comercio mayorista, minorista y reparaciones",
+        "component_type": "industry"
+      },
+      "hotels_restaurants": {
+        "series_id": "6.1_HR_2004_A_20",
+        "label": "Hoteles y restaurantes",
+        "component_type": "industry"
+      },
+      "transport_storage_communications": {
+        "series_id": "6.1_TAC_2004_A_40",
+        "label": "Transporte, almacenamiento y comunicaciones",
+        "component_type": "industry"
+      },
+      "financial_intermediation": {
+        "series_id": "6.1_IF_2004_A_25",
+        "label": "Intermediación financiera",
+        "component_type": "industry"
+      },
+      "real_estate_business_rental": {
+        "series_id": "6.1_AIEA_2004_A_48",
+        "label": "Actividades inmobiliarias, empresariales y de alquiler",
+        "component_type": "industry"
+      },
+      "public_administration_defense_social_security": {
+        "series_id": "6.1_APDPSSAO_2004_A_60",
+        "label": "Administración pública, defensa y seguridad social obligatoria",
+        "component_type": "industry"
+      },
+      "education": {
+        "series_id": "6.1_E_2004_A_10",
+        "label": "Enseñanza",
+        "component_type": "industry"
+      },
+      "health_social_services": {
+        "series_id": "6.1_SSS_2004_A_24",
+        "label": "Servicios sociales y de salud",
+        "component_type": "industry"
+      },
+      "other_community_social_personal_services": {
+        "series_id": "6.1_OASCSP_2004_A_60",
+        "label": "Otras actividades de servicios comunitarias, sociales y personales",
+        "component_type": "industry"
+      },
+      "private_households_domestic_service": {
+        "series_id": "6.1_HPSD_2004_A_32",
+        "label": "Hogares privados con servicio doméstico",
+        "component_type": "industry"
+      },
+      "gross_value_added_basic_prices": {
+        "series_id": "6.1_VABPB_2004_A_36",
+        "label": "Valor agregado bruto a precios básicos",
+        "component_type": "subtotal"
+      },
+      "net_product_taxes": {
+        "series_id": "6.1_IPNS_2004_A_35",
+        "label": "Otros impuestos a los productos netos de subsidios",
+        "component_type": "bridge"
+      },
+      "value_added_tax": {
+        "series_id": "6.1_IVA_2004_A_23",
+        "label": "Impuesto al valor agregado",
+        "component_type": "bridge"
+      },
+      "import_duties": {
+        "series_id": "6.1_DI_2004_A_20",
+        "label": "Derechos de importación",
+        "component_type": "bridge"
+      },
+      "gdp_market_prices": {
+        "series_id": "6.1_PIBPM_2004_A_38",
+        "label": "Producto interno bruto a precios de mercado",
+        "component_type": "total"
+      }
+    },
+    "identities": [
+      {
+        "total": "gross_value_added_basic_prices",
+        "components": [
+          "agriculture_forestry",
+          "fishing",
+          "mining_quarrying",
+          "manufacturing",
+          "electricity_gas_water",
+          "construction",
+          "trade_repairs",
+          "hotels_restaurants",
+          "transport_storage_communications",
+          "financial_intermediation",
+          "real_estate_business_rental",
+          "public_administration_defense_social_security",
+          "education",
+          "health_social_services",
+          "other_community_social_personal_services",
+          "private_households_domestic_service"
+        ]
+      },
+      {
+        "total": "gdp_market_prices",
+        "components": [
+          "gross_value_added_basic_prices",
+          "net_product_taxes",
+          "value_added_tax",
+          "import_duties"
+        ]
+      }
+    ]
+  }
+}

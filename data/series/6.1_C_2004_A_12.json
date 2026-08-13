@@ -1,0 +1,214 @@
+{
+  "count": 22,
+  "data": [
+    [
+      "2004-01-01",
+      14904.725389499732
+    ],
+    [
+      "2005-01-01",
+      16763.24490688766
+    ],
+    [
+      "2006-01-01",
+      18837.79347981721
+    ],
+    [
+      "2007-01-01",
+      20865.051917051813
+    ],
+    [
+      "2008-01-01",
+      21741.135452033992
+    ],
+    [
+      "2009-01-01",
+      19065.801680248733
+    ],
+    [
+      "2010-01-01",
+      20929.95254310365
+    ],
+    [
+      "2011-01-01",
+      22927.82777934025
+    ],
+    [
+      "2012-01-01",
+      22369.493752098664
+    ],
+    [
+      "2013-01-01",
+      22346.005510300736
+    ],
+    [
+      "2014-01-01",
+      21895.06199273249
+    ],
+    [
+      "2015-01-01",
+      22553.656100760152
+    ],
+    [
+      "2016-01-01",
+      20028.86015633439
+    ],
+    [
+      "2017-01-01",
+      21863.38518725173
+    ],
+    [
+      "2018-01-01",
+      22108.484489572314
+    ],
+    [
+      "2019-01-01",
+      21173.8842588173
+    ],
+    [
+      "2020-01-01",
+      16435.060168248157
+    ],
+    [
+      "2021-01-01",
+      21210.25840950285
+    ],
+    [
+      "2022-01-01",
+      22468.63778955804
+    ],
+    [
+      "2023-01-01",
+      22672.90487996375
+    ],
+    [
+      "2024-01-01",
+      18663.893672459963
+    ],
+    [
+      "2025-01-01",
+      19441.92500963841
+    ]
+  ],
+  "meta": [
+    {
+      "end_date": "2025-01-01",
+      "frequency": "year",
+      "start_date": "2004-01-01"
+    },
+    {
+      "catalog": {
+        "description": "Catálogo de datos abiertos de la Subsecretaría de Programación Macroeconómica.",
+        "identifier": "sspm",
+        "issued": "2017-09-28",
+        "language": [
+          "SPA"
+        ],
+        "license": "Creative Commons Attribution 4.0",
+        "modified": "2017-09-28",
+        "publisher": {
+          "mbox": "datoseconomicos@mecon.gov.ar",
+          "name": "Subsecretaría de Programación Macroeconómica."
+        },
+        "spatial": "ARG",
+        "superThemeTaxonomy": "http://datos.gob.ar/superThemeTaxonomy.json",
+        "title": "Datos Programación Macroeconómica"
+      },
+      "dataset": {
+        "accessLevel": "ABIERTO",
+        "accrualPeriodicity": "R/P3M",
+        "contactPoint": {
+          "fn": "Subsecretaría de Programación Macroeconómica.",
+          "hasEmail": "datoseconomicos@mecon.gov.ar"
+        },
+        "description": "Valor agregado bruto sectorial a precios de productor en pesos constantes de 2004",
+        "identifier": "6",
+        "issued": "2017-09-28",
+        "keyword": [
+          "actividad",
+          "cuentas nacionales",
+          "ccnn",
+          "pib",
+          "constantes",
+          "base 2004"
+        ],
+        "landingPage": "https://www.economia.gob.ar/datos/",
+        "language": [
+          "SPA"
+        ],
+        "license": "Creative Commons Attribution 4.0",
+        "publisher": {
+          "mbox": "datoseconomicos@mecon.gov.ar",
+          "name": "Subsecretaría de Programación Macroeconómica"
+        },
+        "source": "Instituto Nacional de Estadística y Censos (INDEC)",
+        "spatial": "ARG",
+        "superTheme": [
+          "ECON"
+        ],
+        "temporal": "2004-01-01/2016-12-01",
+        "theme": [
+          {
+            "description": "Series de actividad: cuentas nacionales, consumo, producción, etc.",
+            "id": "actividad",
+            "label": "Actividad"
+          }
+        ],
+        "title": "Producto Interno Bruto a Precios de Mercado. Precios constantes. Base 2004"
+      },
+      "distribution": {
+        "accessURL": "https://www.economia.gob.ar/datos/",
+        "changed": "False",
+        "description": "Producto Interno Bruto en millones de pesos de 2004: Valores anuales [Base 2004]",
+        "downloadURL": "https://infra.datos.gob.ar/catalog/sspm/dataset/6/distribution/6.1/download/producto-interno-bruto-valores-anuales-base-2004.csv",
+        "fileName": "producto-interno-bruto-valores-anuales-base-2004.csv",
+        "format": "CSV",
+        "frequency": "R/P1Y",
+        "identifier": "6.1",
+        "issued": "2017-09-28",
+        "last_hash": "b99df87376d71dd5311076b96aab41ab2dae2e8d461094244ef8740bad592ae600903f6cd028d0f82079e80fc8df5d1d5d5c34569933f3d3231b0dbd7dfb9741",
+        "title": "Producto Interno Bruto. Precios constantes. Base 2004. Valores anuales."
+      },
+      "field": {
+        "available": "true",
+        "average": "20512.138387510087",
+        "days_without_data": "225",
+        "description": "Valor agregado bruto anual a precios de productor de construcción en pesos de 2004",
+        "frequency": "R/P1Y",
+        "hits_180_days": "0",
+        "hits_30_days": "0",
+        "hits_90_days": "0",
+        "hits_total": "1003",
+        "id": "6.1_C_2004_A_12",
+        "is_percentage": false,
+        "is_updated": "True",
+        "last_pct_change": "0.04168644286301815",
+        "last_value": "19441.92500963841",
+        "max_value": "22927.82777934025",
+        "min_value": "14904.725389499732",
+        "representation_mode": "value",
+        "representation_mode_units": "Millones de pesos a precios de 2004",
+        "second_to_last_value": "18663.893672459963",
+        "significant_figures": "12",
+        "time_index_end": "2025-01-01",
+        "time_index_size": "22",
+        "time_index_start": "2004-01-01",
+        "title": "construccion",
+        "type": "number",
+        "units": "Millones de pesos a precios de 2004"
+      }
+    }
+  ],
+  "params": {
+    "identifiers": [
+      {
+        "dataset": "6",
+        "distribution": "6.1",
+        "id": "6.1_C_2004_A_12"
+      }
+    ],
+    "ids": "6.1_C_2004_A_12",
+    "limit": "1000",
+    "metadata": "full"
+  }
+}
