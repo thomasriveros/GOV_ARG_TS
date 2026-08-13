@@ -259,7 +259,7 @@ def fetch_series(api_url: str, series_id: str) -> dict:
     return request_json(f"{api_url}/series/?{query}")
 
 
-def load_series_groups(path: pathlib.Path) -> dict[str, dict[str, str]]:
+def load_series_groups(path: pathlib.Path) -> dict[str, dict[str, object]]:
     groups = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(groups, dict) or not groups:
         raise RuntimeError("config/series_groups.json must contain a non-empty object")
@@ -271,36 +271,82 @@ def load_series_groups(path: pathlib.Path) -> dict[str, dict[str, str]]:
             or not columns
         ):
             raise RuntimeError("Series groups must use simple names and non-empty objects")
-        for column, series_id in columns.items():
+        for column, specification in columns.items():
             if (
                 not isinstance(column, str)
                 or not column.replace("_", "").isalnum()
-                or not isinstance(series_id, str)
-                or not series_id
             ):
-                raise RuntimeError("Group column names and series IDs must be strings")
+                raise RuntimeError("Group column names must be simple strings")
+            if isinstance(specification, str) and specification:
+                continue
+            if not isinstance(specification, dict):
+                raise RuntimeError("Group columns must contain a series ID or transform")
+            if set(specification) != {
+                "series_id",
+                "deflator_series_id",
+                "deflator_base",
+            }:
+                raise RuntimeError("Deflated columns have unexpected configuration keys")
+            if (
+                not isinstance(specification["series_id"], str)
+                or not specification["series_id"]
+                or not isinstance(specification["deflator_series_id"], str)
+                or not specification["deflator_series_id"]
+                or not isinstance(specification["deflator_base"], (int, float))
+                or specification["deflator_base"] <= 0
+            ):
+                raise RuntimeError("Deflated columns have invalid configuration values")
     return groups
 
 
 def grouped_series_csv(
-    columns: dict[str, str], payloads: dict[str, dict]
+    columns: dict[str, object], payloads: dict[str, dict]
 ) -> str:
     values_by_column: dict[str, dict[str, object]] = {}
     dates: set[str] = set()
-    for column, series_id in columns.items():
-        payload = payloads[series_id]
-        data = payload.get("data")
-        if not isinstance(data, list):
-            raise RuntimeError(f"Unexpected series response for {series_id}")
-        values: dict[str, object] = {}
-        for row in data:
-            if not isinstance(row, list) or len(row) != 2:
-                raise RuntimeError(f"Unexpected observation for {series_id}: {row!r}")
-            date, value = row
-            if not isinstance(date, str):
-                raise RuntimeError(f"Unexpected date for {series_id}: {date!r}")
-            values[date] = value
-            dates.add(date)
+    raw_values: dict[str, dict[str, object]] = {}
+    for specification in columns.values():
+        series_ids = (
+            [specification]
+            if isinstance(specification, str)
+            else [
+                specification["series_id"],
+                specification["deflator_series_id"],
+            ]
+        )
+        for series_id in series_ids:
+            if series_id in raw_values:
+                continue
+            payload = payloads[series_id]
+            data = payload.get("data")
+            if not isinstance(data, list):
+                raise RuntimeError(f"Unexpected series response for {series_id}")
+            values: dict[str, object] = {}
+            for row in data:
+                if not isinstance(row, list) or len(row) != 2:
+                    raise RuntimeError(f"Unexpected observation for {series_id}: {row!r}")
+                date, value = row
+                if not isinstance(date, str):
+                    raise RuntimeError(f"Unexpected date for {series_id}: {date!r}")
+                values[date] = value
+            raw_values[series_id] = values
+
+    for column, specification in columns.items():
+        if isinstance(specification, str):
+            values = raw_values[specification]
+        else:
+            nominal = raw_values[specification["series_id"]]
+            deflator = raw_values[specification["deflator_series_id"]]
+            base = specification["deflator_base"]
+            values = {}
+            for date in nominal.keys() & deflator.keys():
+                nominal_value = nominal[date]
+                deflator_value = deflator[date]
+                if nominal_value is None or deflator_value in (None, 0):
+                    values[date] = None
+                else:
+                    values[date] = round(nominal_value * base / deflator_value, 6)
+        dates.update(values)
         values_by_column[column] = values
 
     output = io.StringIO(newline="")
@@ -359,9 +405,14 @@ def main() -> int:
         atomic_write(categories_dir / f"{filename}.csv", catalog_csv(records))
 
     groups = load_series_groups(args.series_groups_file)
-    grouped_ids = {
-        series_id for columns in groups.values() for series_id in columns.values()
-    }
+    grouped_ids = set()
+    for columns in groups.values():
+        for specification in columns.values():
+            if isinstance(specification, str):
+                grouped_ids.add(specification)
+            else:
+                grouped_ids.add(specification["series_id"])
+                grouped_ids.add(specification["deflator_series_id"])
     ids = sorted(set(configured_series(args.series_file)) | grouped_ids)
     known_ids = {
         item.get("field", {}).get("id")
