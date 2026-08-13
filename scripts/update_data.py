@@ -14,6 +14,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from math import isclose
 
 DEFAULT_API_URL = "https://apis.datos.gob.ar/series/api"
 USER_AGENT = "GOV_ARG_TS/1.0 (+https://github.com/thomasriveros/GOV_ARG_TS)"
@@ -359,6 +360,111 @@ def grouped_series_csv(
     return output.getvalue()
 
 
+def load_long_series_groups(path: pathlib.Path) -> dict[str, dict]:
+    groups = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(groups, dict):
+        raise RuntimeError("Long-series groups must be an object")
+    for filename, group in groups.items():
+        if not isinstance(filename, str) or not filename.replace("_", "").isalnum():
+            raise RuntimeError("Long-series filenames must be simple strings")
+        if not isinstance(group, dict) or set(group) != {"unit", "series", "identities"}:
+            raise RuntimeError(f"Long-series group {filename!r} has unexpected keys")
+        if not isinstance(group["unit"], str) or not group["unit"]:
+            raise RuntimeError(f"Long-series group {filename!r} needs a unit")
+        series = group["series"]
+        if not isinstance(series, dict) or not series:
+            raise RuntimeError(f"Long-series group {filename!r} needs series")
+        for component, specification in series.items():
+            if (
+                not isinstance(component, str)
+                or not component.replace("_", "").isalnum()
+                or not isinstance(specification, dict)
+                or set(specification) != {"series_id", "label", "component_type"}
+                or not all(isinstance(value, str) and value for value in specification.values())
+            ):
+                raise RuntimeError(f"Invalid long-series component {component!r}")
+        identities = group["identities"]
+        if not isinstance(identities, list):
+            raise RuntimeError(f"Long-series group {filename!r} needs identity checks")
+        for identity in identities:
+            if (
+                not isinstance(identity, dict)
+                or set(identity) != {"total", "components"}
+                or identity["total"] not in series
+                or not isinstance(identity["components"], list)
+                or not identity["components"]
+                or any(component not in series for component in identity["components"])
+            ):
+                raise RuntimeError(f"Invalid identity in long-series group {filename!r}")
+    return groups
+
+
+def series_values(payload: dict, series_id: str) -> dict[str, float]:
+    data = payload.get("data")
+    if not isinstance(data, list):
+        raise RuntimeError(f"Unexpected series response for {series_id}")
+    values = {}
+    for row in data:
+        if (
+            not isinstance(row, list)
+            or len(row) != 2
+            or not isinstance(row[0], str)
+            or not isinstance(row[1], (int, float))
+        ):
+            raise RuntimeError(f"Unexpected observation for {series_id}: {row!r}")
+        values[row[0]] = float(row[1])
+    return values
+
+
+def long_series_csv(group: dict, payloads: dict[str, dict]) -> str:
+    series = group["series"]
+    values_by_component = {
+        component: series_values(payloads[specification["series_id"]], specification["series_id"])
+        for component, specification in series.items()
+    }
+    date_sets = {component: set(values) for component, values in values_by_component.items()}
+    reference_component = next(iter(series))
+    reference_dates = date_sets[reference_component]
+    mismatched = [component for component, dates in date_sets.items() if dates != reference_dates]
+    if mismatched:
+        raise RuntimeError(
+            "Long-series components have mismatched dates: " + ", ".join(mismatched)
+        )
+
+    for identity in group["identities"]:
+        for date in sorted(reference_dates):
+            total = values_by_component[identity["total"]][date]
+            component_sum = sum(
+                values_by_component[component][date]
+                for component in identity["components"]
+            )
+            if not isclose(total, component_sum, rel_tol=1e-9, abs_tol=1e-4):
+                raise RuntimeError(
+                    f"Accounting identity failed on {date}: {identity['total']}={total}, "
+                    f"components={component_sum}"
+                )
+
+    output = io.StringIO(newline="")
+    writer = csv.writer(output, lineterminator="\n")
+    writer.writerow(
+        ["date", "series_id", "component", "component_label", "component_type", "value", "unit"]
+    )
+    for date in sorted(reference_dates):
+        for component, specification in series.items():
+            writer.writerow(
+                [
+                    date,
+                    specification["series_id"],
+                    component,
+                    specification["label"],
+                    specification["component_type"],
+                    values_by_component[component][date],
+                    group["unit"],
+                ]
+            )
+    return output.getvalue()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--api-url", default=DEFAULT_API_URL)
@@ -375,6 +481,11 @@ def main() -> int:
         "--series-groups-file",
         type=pathlib.Path,
         default=pathlib.Path("config/series_groups.json"),
+    )
+    parser.add_argument(
+        "--long-series-groups-file",
+        type=pathlib.Path,
+        default=pathlib.Path("config/long_series_groups.json"),
     )
     parser.add_argument("--page-size", type=int, default=1000)
     args = parser.parse_args()
@@ -405,6 +516,7 @@ def main() -> int:
         atomic_write(categories_dir / f"{filename}.csv", catalog_csv(records))
 
     groups = load_series_groups(args.series_groups_file)
+    long_groups = load_long_series_groups(args.long_series_groups_file)
     grouped_ids = set()
     for columns in groups.values():
         for specification in columns.values():
@@ -413,7 +525,12 @@ def main() -> int:
             else:
                 grouped_ids.add(specification["series_id"])
                 grouped_ids.add(specification["deflator_series_id"])
-    ids = sorted(set(configured_series(args.series_file)) | grouped_ids)
+    long_grouped_ids = {
+        specification["series_id"]
+        for group in long_groups.values()
+        for specification in group["series"].values()
+    }
+    ids = sorted(set(configured_series(args.series_file)) | grouped_ids | long_grouped_ids)
     known_ids = {
         item.get("field", {}).get("id")
         for records in category_records.values()
@@ -442,7 +559,9 @@ def main() -> int:
 
     indicators_dir = args.output_dir / "indicators"
     indicators_dir.mkdir(parents=True, exist_ok=True)
-    expected_indicator_files = {f"{filename}.csv" for filename in groups}
+    expected_indicator_files = {
+        f"{filename}.csv" for filename in set(groups) | set(long_groups)
+    }
     for path in indicators_dir.glob("*.csv"):
         if path.name not in expected_indicator_files:
             path.unlink()
@@ -451,11 +570,17 @@ def main() -> int:
             indicators_dir / f"{filename}.csv",
             grouped_series_csv(columns, payloads),
         )
+    for filename, group in long_groups.items():
+        atomic_write(
+            indicators_dir / f"{filename}.csv",
+            long_series_csv(group, payloads),
+        )
 
     total_rows = sum(len(records) for records in category_records.values())
     print(
         f"Updated {len(categories)} category CSVs ({total_rows:,} rows) "
-        f"and {len(ids)} selected series in {len(groups)} grouped CSVs"
+        f"and {len(ids)} selected series in "
+        f"{len(groups) + len(long_groups)} grouped CSVs"
     )
     return 0
 
