@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "2438.455078825911",
-        "days_without_data": "135",
+        "days_without_data": "136",
         "description": "Variacion de existencias, en millones de pesos de 2004 y Trimestral",
         "frequency": "R/P3M",
         "hits_180_days": "0",
