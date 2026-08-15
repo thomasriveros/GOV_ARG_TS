@@ -1,5 +1,5 @@
 {
-  "count": 115,
+  "count": 116,
   "data": [
     [
       "2016-12-01",
@@ -460,11 +460,15 @@
     [
       "2026-06-01",
       11826.4103
+    ],
+    [
+      "2026-07-01",
+      12076.3937
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-06-01",
+      "end_date": "2026-07-01",
       "frequency": "month",
       "start_date": "2016-12-01"
     },
@@ -535,13 +539,13 @@
         "frequency": "R/P1M",
         "identifier": "145.3",
         "issued": "2017-09-28",
-        "last_hash": "a577bcc5384f1a7cd4019f96612361969747aa0bceb02d15cccf91ba166438f29fe3afe238224158b36bbd15ac9459db1f5df015f80d9443b7283ee1588706c7",
+        "last_hash": "48aced2def30aaad7aba82d353536a981a50bdf746b1b1653d324ab746f32365f4cec5216db154529d651297646241bfa527492a38ba7eaab66985d196cb176c",
         "title": "Índice de Precios al Consumidor. Nivel General. Base diciembre 2016. Valores mensuales"
       },
       "field": {
         "available": "true",
-        "average": "2610.2503947826085",
-        "days_without_data": "45",
+        "average": "2691.855078448276",
+        "days_without_data": "14",
         "description": "IPC. Nivel General Nacional. Base dic 2016. Mensual.",
         "frequency": "R/P1M",
         "hits_180_days": "0",
@@ -551,16 +555,16 @@
         "id": "145.3_INGNACNAL_DICI_M_15",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "0.018868714688293764",
-        "last_value": "11826.4103",
-        "max_value": "11826.4103",
+        "last_pct_change": "0.021137724267861868",
+        "last_value": "12076.3937",
+        "max_value": "12076.3937",
         "min_value": "100.0",
         "representation_mode": "value",
         "representation_mode_units": "Índice",
-        "second_to_last_value": "11607.3937",
+        "second_to_last_value": "11826.4103",
         "significant_figures": "4",
-        "time_index_end": "2026-06-01",
-        "time_index_size": "115",
+        "time_index_end": "2026-07-01",
+        "time_index_size": "116",
         "time_index_start": "2016-12-01",
         "title": "ipc_ng_nacional",
         "type": "number",
