@@ -172,7 +172,7 @@
       "field": {
         "available": "true",
         "average": "10001.353905463762",
-        "days_without_data": "227",
+        "days_without_data": "229",
         "description": "Valor agregado bruto anual a precios de productor de hoteles y restaurantes en pesos de 2004",
         "frequency": "R/P1Y",
         "hits_180_days": "0",

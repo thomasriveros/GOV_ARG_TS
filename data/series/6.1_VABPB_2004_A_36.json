@@ -172,7 +172,7 @@
       "field": {
         "available": "true",
         "average": "559551.1970061404",
-        "days_without_data": "227",
+        "days_without_data": "229",
         "description": "Valor agregado bruto anual a precios de productor de valor agregado bruto a precios básicos en pesos de 2004",
         "frequency": "R/P1Y",
         "hits_180_days": "0",
