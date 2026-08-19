@@ -37,5 +37,9 @@
       "deflator_series_id": "145.3_INGNACNAL_DICI_M_15",
       "deflator_base": 100
     }
+  },
+  "m2_inflation": {
+    "m2": "90.1_AMTM2_0_0_31",
+    "inflation": "145.3_INGNACUAL_DICI_M_38"
   }
 }
