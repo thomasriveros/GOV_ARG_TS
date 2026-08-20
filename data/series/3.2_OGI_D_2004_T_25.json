@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "164539.05084929595",
-        "days_without_data": "141",
+        "days_without_data": "142",
         "description": "Importación a precios de comprador, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",

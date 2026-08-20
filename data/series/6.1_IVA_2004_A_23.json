@@ -172,7 +172,7 @@
       "field": {
         "available": "true",
         "average": "50616.78586586948",
-        "days_without_data": "231",
+        "days_without_data": "232",
         "description": "Valor agregado bruto anual a precios de productor de impuesto al valor agregado en pesos de 2004",
         "frequency": "R/P1Y",
         "hits_180_days": "0",
