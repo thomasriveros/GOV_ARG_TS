@@ -41,6 +41,9 @@
   "m2_inflation": {
     "m2": "90.1_AMTM2_0_0_31",
     "inflation": "145.3_INGNACUAL_DICI_M_38",
-    "real_gdp": "4.2_OGP_2004_T_17"
+    "real_gdp": "4.2_OGP_2004_T_17",
+    "shopping_center_sales_index_2017": "458.1_VENTAS_TOTNAL_0_M_42_19",
+    "shopping_center_sales_constant_thousands_ars": "458.1_VENTAS_TOTTES_ABRI_M_33_40",
+    "shopping_center_cinema_screens": "458.1_SALASLAS_ABRI_M_5_17"
   }
 }
