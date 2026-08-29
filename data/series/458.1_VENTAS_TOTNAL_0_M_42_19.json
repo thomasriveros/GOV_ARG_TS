@@ -537,7 +537,7 @@
       "field": {
         "available": "true",
         "average": "82.43089273159714",
-        "days_without_data": "88",
+        "days_without_data": "89",
         "description": "Ventas centros de compras. Ventas totales a precios constantes serie original",
         "frequency": "R/P1M",
         "hits_180_days": "0",
