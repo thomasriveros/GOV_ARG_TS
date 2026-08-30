@@ -537,7 +537,7 @@
       "field": {
         "available": "true",
         "average": "82.43089273159714",
-        "days_without_data": "89",
+        "days_without_data": "90",
         "description": "Ventas centros de compras. Ventas totales a precios constantes serie original",
         "frequency": "R/P1M",
         "hits_180_days": "0",
@@ -546,7 +546,7 @@
         "hits_total": "0",
         "id": "458.1_VENTAS_TOTNAL_0_M_42_19",
         "is_percentage": false,
-        "is_updated": "True",
+        "is_updated": "False",
         "last_pct_change": "0.18908864205027953",
         "last_value": "93.51521175049363",
         "max_value": "154.47267658740006",

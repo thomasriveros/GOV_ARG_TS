@@ -172,7 +172,7 @@
       "field": {
         "available": "true",
         "average": "669792.63021649",
-        "days_without_data": "240",
+        "days_without_data": "241",
         "description": "Valor agregado bruto anual a precios de productor de producto interno bruto a precios de mercado en pesos de 2004",
         "frequency": "R/P1Y",
         "hits_180_days": "0",
