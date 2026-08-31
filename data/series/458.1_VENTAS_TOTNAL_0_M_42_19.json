@@ -1,5 +1,5 @@
 {
-  "count": 113,
+  "count": 114,
   "data": [
     [
       "2017-01-01",
@@ -452,11 +452,15 @@
     [
       "2026-05-01",
       93.51521175049363
+    ],
+    [
+      "2026-06-01",
+      94.93916150317528
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-05-01",
+      "end_date": "2026-06-01",
       "frequency": "month",
       "start_date": "2017-01-01"
     },
@@ -523,7 +527,7 @@
       },
       "distribution": {
         "accessURL": "https://www.economia.gob.ar/datos/",
-        "changed": "False",
+        "changed": "True",
         "description": "Ventas totales nacionales en Centros de Compras en millones de pesos, valores corrientes y constantes (base abril 2016) y evolución por grupos de artículos (valores corrientes)",
         "downloadURL": "https://infra.datos.gob.ar/catalog/sspm/dataset/458/distribution/458.1/download/ventas-totales-nacionales-centros-compras-valores-mensuales.csv",
         "fileName": "ventas-totales-nacionales-centros-compras-valores-mensuales.csv",
@@ -531,13 +535,13 @@
         "frequency": "R/P1M",
         "identifier": "458.1",
         "issued": "2019-12-12T00:00:00",
-        "last_hash": "7d7c293cc3e451aa2dc3cba564f6fcb230af2bc1417eb4abfc19a83fe20e04efcbb8172269e4cd457db26fe379d75b3bc5daef49bc28015b232d1c2682297619",
+        "last_hash": "d63b05dc67c6faac702619c5d3050fd1ab2f0199a002693367a6a26384d6f6305623b9c5e9fb850f423d6e217cf86ba17c9b1bf95646114eb9fad77aa4fbca51",
         "title": "Ventas totales nacionales en Centros de Compras. Valores mensuales"
       },
       "field": {
         "available": "true",
-        "average": "82.43089273159714",
-        "days_without_data": "90",
+        "average": "82.54061438748818",
+        "days_without_data": "62",
         "description": "Ventas centros de compras. Ventas totales a precios constantes serie original",
         "frequency": "R/P1M",
         "hits_180_days": "0",
@@ -546,17 +550,17 @@
         "hits_total": "0",
         "id": "458.1_VENTAS_TOTNAL_0_M_42_19",
         "is_percentage": false,
-        "is_updated": "False",
-        "last_pct_change": "0.18908864205027953",
-        "last_value": "93.51521175049363",
+        "is_updated": "True",
+        "last_pct_change": "0.015226931811702205",
+        "last_value": "94.93916150317528",
         "max_value": "154.47267658740006",
         "min_value": "1.517079112023114",
         "representation_mode": "value",
         "representation_mode_units": "Índice base 2017=100",
-        "second_to_last_value": "78.64444116567336",
+        "second_to_last_value": "93.51521175049363",
         "significant_figures": "16",
-        "time_index_end": "2026-05-01",
-        "time_index_size": "113",
+        "time_index_end": "2026-06-01",
+        "time_index_size": "114",
         "time_index_start": "2017-01-01",
         "title": "ventas_totales_precios_constantes_original",
         "type": "number",

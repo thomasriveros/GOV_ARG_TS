@@ -440,7 +440,7 @@
       "field": {
         "available": "true",
         "average": "146687.82913629402",
-        "days_without_data": "151",
+        "days_without_data": "153",
         "description": "Exportación a precios de comprador, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
