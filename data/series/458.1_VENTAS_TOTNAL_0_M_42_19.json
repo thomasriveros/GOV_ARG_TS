@@ -527,7 +527,7 @@
       },
       "distribution": {
         "accessURL": "https://www.economia.gob.ar/datos/",
-        "changed": "True",
+        "changed": "False",
         "description": "Ventas totales nacionales en Centros de Compras en millones de pesos, valores corrientes y constantes (base abril 2016) y evolución por grupos de artículos (valores corrientes)",
         "downloadURL": "https://infra.datos.gob.ar/catalog/sspm/dataset/458/distribution/458.1/download/ventas-totales-nacionales-centros-compras-valores-mensuales.csv",
         "fileName": "ventas-totales-nacionales-centros-compras-valores-mensuales.csv",
@@ -541,7 +541,7 @@
       "field": {
         "available": "true",
         "average": "82.54061438748818",
-        "days_without_data": "62",
+        "days_without_data": "63",
         "description": "Ventas centros de compras. Ventas totales a precios constantes serie original",
         "frequency": "R/P1M",
         "hits_180_days": "0",

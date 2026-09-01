@@ -1,5 +1,5 @@
 {
-  "count": 126,
+  "count": 127,
   "data": [
     [
       "2016-01-01",
@@ -504,11 +504,15 @@
     [
       "2026-06-01",
       -696842.9000000022
+    ],
+    [
+      "2026-07-01",
+      2960332.7000000067
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-06-01",
+      "end_date": "2026-07-01",
       "frequency": "month",
       "start_date": "2016-01-01"
     },
@@ -583,13 +587,13 @@
         "frequency": "R/P1M",
         "identifier": "452.3",
         "issued": "2019-06-06",
-        "last_hash": "7c9718e2f32bfc1c6dd23a5110b5259473f81ff98dda4c9940ca02d75f4e40bb5ef1c3f0c8b00e2420a27defcef0cb55e8e18a8e458a80ec9b2215ab6583959c",
+        "last_hash": "5613299e97c6bf419687144537d4f40b7d95df8b0e653d0e5fe4be16231f4badb951e29d1f80e2be7866e867e3cd2070faec27fff1e1932ace32b3159fc8d0ac",
         "title": "Informe Mensual de Ingresos y Gastos. Sector Público Nacional No Financiero.  Valores mensuales 2015-2018"
       },
       "field": {
         "available": "true",
-        "average": "148934.1159975476",
-        "days_without_data": "62",
+        "average": "171071.11272197642",
+        "days_without_data": "32",
         "description": "IMIG. Resultado primario",
         "frequency": "R/P1M",
         "hits_180_days": "0",
@@ -599,16 +603,16 @@
         "id": "452.3_RESULTADO_RIO_0_M_18_54",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "-1.3621154053314892",
-        "last_value": "-696842.9000000022",
+        "last_pct_change": "-5.248206733540655",
+        "last_value": "2960332.7000000067",
         "max_value": "3125737.299999999",
         "min_value": "-2876449.600000005",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos",
-        "second_to_last_value": "1924366.9000000025",
+        "second_to_last_value": "-696842.9000000022",
         "significant_figures": "13",
-        "time_index_end": "2026-06-01",
-        "time_index_size": "126",
+        "time_index_end": "2026-07-01",
+        "time_index_size": "127",
         "time_index_start": "2016-01-01",
         "title": "resultado_primario",
         "type": "number",
