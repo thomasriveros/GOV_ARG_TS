@@ -593,7 +593,7 @@
       "field": {
         "available": "true",
         "average": "171071.11272197642",
-        "days_without_data": "32",
+        "days_without_data": "33",
         "description": "IMIG. Resultado primario",
         "frequency": "R/P1M",
         "hits_180_days": "0",

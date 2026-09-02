@@ -1217,7 +1217,7 @@
       "field": {
         "available": "true",
         "average": "9091779.002041208",
-        "days_without_data": "32",
+        "days_without_data": "33",
         "description": "Agregados monetarios totales. M2. En millones de pesos",
         "frequency": "R/P1M",
         "hits_180_days": "0",
