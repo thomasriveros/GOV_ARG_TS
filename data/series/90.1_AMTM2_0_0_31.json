@@ -1,5 +1,5 @@
 {
-  "count": 283,
+  "count": 284,
   "data": [
     [
       "2003-01-01",
@@ -1099,7 +1099,7 @@
     ],
     [
       "2025-11-01",
-      77229098.03333333
+      77228842.33333333
     ],
     [
       "2025-12-01",
@@ -1107,19 +1107,19 @@
     ],
     [
       "2026-01-01",
-      81992222.03225806
+      81994876.93548387
     ],
     [
       "2026-02-01",
-      80284831.0
+      80286178.42857143
     ],
     [
       "2026-03-01",
-      81248703.64516129
+      81246985.70967741
     ],
     [
       "2026-04-01",
-      80626012.33333333
+      80629995.56666666
     ],
     [
       "2026-05-01",
@@ -1127,16 +1127,20 @@
     ],
     [
       "2026-06-01",
-      86798809.53333333
+      86791689.36666666
     ],
     [
       "2026-07-01",
-      90469892.93548387
+      90484558.93548387
+    ],
+    [
+      "2026-08-01",
+      91442622.06451613
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-07-01",
+      "end_date": "2026-08-01",
       "frequency": "month",
       "start_date": "2003-01-01"
     },
@@ -1211,13 +1215,13 @@
         "frequency": "R/P1M",
         "identifier": "90.1",
         "issued": "2017-09-28",
-        "last_hash": "52cbb6f8b9737118d351b24a25340116ba9f9d59a354bfa0d87f9a82c4d7e9e494d7d01bf420a404c9c1e81b364c9ccdad037ca656341d6e4f068410c9985880",
+        "last_hash": "a16cc91b8dca6b691abbf2f17506b2ca3121828a7b0def53dcf7aab7f8d425032e1efca4077d734f310ca84eeca8086b9ce5cd5314db9a812796b9653e4e88ba",
         "title": "Agregados monetarios"
       },
       "field": {
         "available": "true",
-        "average": "9091779.002041208",
-        "days_without_data": "39",
+        "average": "9381794.497905485",
+        "days_without_data": "9",
         "description": "Agregados monetarios totales. M2. En millones de pesos",
         "frequency": "R/P1M",
         "hits_180_days": "0",
@@ -1227,16 +1231,16 @@
         "id": "90.1_AMTM2_0_0_31",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "0.042294167649162606",
-        "last_value": "90469892.93548387",
-        "max_value": "90469892.93548387",
+        "last_pct_change": "0.010588139460516732",
+        "last_value": "91442622.06451613",
+        "max_value": "91442622.06451613",
         "min_value": "46464.67785714286",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos",
-        "second_to_last_value": "86798809.53333333",
+        "second_to_last_value": "90484558.93548387",
         "significant_figures": "11",
-        "time_index_end": "2026-07-01",
-        "time_index_size": "283",
+        "time_index_end": "2026-08-01",
+        "time_index_size": "284",
         "time_index_start": "2003-01-01",
         "title": "agregados_monetarios_totales_m2",
         "type": "number",
