@@ -1,5 +1,5 @@
 {
-  "count": 115,
+  "count": 116,
   "data": [
     [
       "2017-01-01",
@@ -460,11 +460,15 @@
     [
       "2026-07-01",
       0.0211377242678618
+    ],
+    [
+      "2026-08-01",
+      0.0165920642352028
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-07-01",
+      "end_date": "2026-08-01",
       "frequency": "month",
       "start_date": "2017-01-01"
     },
@@ -535,13 +539,13 @@
         "frequency": "R/P1M",
         "identifier": "145.3",
         "issued": "2017-09-28",
-        "last_hash": "48aced2def30aaad7aba82d353536a981a50bdf746b1b1653d324ab746f32365f4cec5216db154529d651297646241bfa527492a38ba7eaab66985d196cb176c",
+        "last_hash": "d1ae5651ac9c090595ce354e4edeb24d061d0f19528c7ec383863f4c59cc3d98aa39b8391ff30f2b490772bee818db0e2dd21b42b2b256addf44c5af25dc76d5",
         "title": "Índice de Precios al Consumidor. Nivel General. Base diciembre 2016. Valores mensuales"
       },
       "field": {
         "available": "true",
-        "average": "0.04313017365442534",
-        "days_without_data": "42",
+        "average": "0.04290139684908722",
+        "days_without_data": "11",
         "description": "IPC. Tasa de variación mensual. Nivel General. Nacional. Base dic 2016.",
         "frequency": "R/P1M",
         "hits_180_days": "0",
@@ -551,16 +555,16 @@
         "id": "145.3_INGNACUAL_DICI_M_38",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "0.12025247172642928",
-        "last_value": "0.0211377242678618",
+        "last_pct_change": "-0.21504964181836306",
+        "last_value": "0.0165920642352028",
         "max_value": "0.2546567498423684",
         "min_value": "0.0119207347138923",
         "representation_mode": "value",
         "representation_mode_units": "Variación intermensual",
-        "second_to_last_value": "0.0188687146882937",
+        "second_to_last_value": "0.0211377242678618",
         "significant_figures": "16",
-        "time_index_end": "2026-07-01",
-        "time_index_size": "115",
+        "time_index_end": "2026-08-01",
+        "time_index_size": "116",
         "time_index_start": "2017-01-01",
         "title": "ipc_ng_nacional_tasa_variacion_mensual",
         "type": "number",
