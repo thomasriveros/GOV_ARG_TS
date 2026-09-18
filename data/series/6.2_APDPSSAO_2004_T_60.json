@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "data": [
     [
       "2004-01-01",
@@ -355,12 +355,16 @@
     ],
     [
       "2026-01-01",
-      34583.3304438533
+      34580.8737854637
+    ],
+    [
+      "2026-04-01",
+      34280.6780469078
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-01-01",
+      "end_date": "2026-04-01",
       "frequency": "quarter",
       "start_date": "2004-01-01"
     },
@@ -434,13 +438,13 @@
         "frequency": "R/P3M",
         "identifier": "6.2",
         "issued": "2017-09-28",
-        "last_hash": "21bd634e3c3707b9c5f8fffb071674869b576019d34e9b98aa40d0a8eef6afa45ac3232f5fac92427d58ce434cec5d86bae7127a927aa6cead534483d6e3e681",
+        "last_hash": "b27c9957dcd4d3aa9a0ab9d47d93265b94124a8d4dec412fb7ae50465857580ebf5be8f8df849025f10f47341b481461f5e4583f6d4ccd6f8715c3abc82e2017",
         "title": "Producto Interno Bruto. Precios constantes. Base 2004. Valores trimestrales."
       },
       "field": {
         "available": "true",
-        "average": "30125.671551801428",
-        "days_without_data": "170",
+        "average": "30171.81099443161",
+        "days_without_data": "80",
         "description": "Valor agregado bruto trimestral a precios de productor de administración pública y defensa planes de seguridad social de afiliación obligatoria en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",
@@ -450,16 +454,16 @@
         "id": "6.2_APDPSSAO_2004_T_60",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "-0.002253197344378788",
-        "last_value": "34583.3304438533",
+        "last_pct_change": "-0.008680976091532067",
+        "last_value": "34280.6780469078",
         "max_value": "36018.46917575544",
         "min_value": "21071.474914248072",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos a precios de 2004",
-        "second_to_last_value": "34661.42948472065",
+        "second_to_last_value": "34580.8737854637",
         "significant_figures": "12",
-        "time_index_end": "2026-01-01",
-        "time_index_size": "89",
+        "time_index_end": "2026-04-01",
+        "time_index_size": "90",
         "time_index_start": "2004-01-01",
         "title": "admin_publica_planes_seguridad_social_afiliacion_obligatoria",
         "type": "number",

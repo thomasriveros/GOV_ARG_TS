@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "data": [
     [
       "2004-01-01",
@@ -355,12 +355,16 @@
     ],
     [
       "2026-01-01",
-      212956.78330619173
+      212744.9729266175
+    ],
+    [
+      "2026-04-01",
+      208509.87201795584
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-01-01",
+      "end_date": "2026-04-01",
       "frequency": "quarter",
       "start_date": "2004-01-01"
     },
@@ -434,13 +438,13 @@
         "frequency": "R/P3M",
         "identifier": "4.2",
         "issued": "2017-09-28",
-        "last_hash": "aecf71d89d3bf98d1ce7e9c826be262e1fcd661e388512608d6ebfd8eccb15b0324400afa98d0507c8b4f6bea0559bd517beaad1d79ece25090564157e03b18c",
+        "last_hash": "ca4aeda5863eff5de48c56581fd92ef5048c457a5421585ab302868443d47f1e1361696a792beadb5e733749789b1dc8da0de46e69c8e83b685c330197d5a7e5",
         "title": "Oferta y Demanda Global, Precios constantes. Base 2004. Valores trimestrales"
       },
       "field": {
         "available": "true",
-        "average": "164492.5016805931",
-        "days_without_data": "170",
+        "average": "164979.23012456848",
+        "days_without_data": "80",
         "description": "Importación a precios de comprador, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
@@ -450,16 +454,16 @@
         "id": "4.2_OGI_2004_T_25",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "-0.03949899406633084",
-        "last_value": "212956.78330619173",
+        "last_pct_change": "-0.019906937637123368",
+        "last_value": "208509.87201795584",
         "max_value": "230112.3766481846",
         "min_value": "73073.43481112685",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos a precios de 2004",
-        "second_to_last_value": "221714.27410342373",
+        "second_to_last_value": "212744.9729266175",
         "significant_figures": "11",
-        "time_index_end": "2026-01-01",
-        "time_index_size": "89",
+        "time_index_end": "2026-04-01",
+        "time_index_size": "90",
         "time_index_start": "2004-01-01",
         "title": "oferta_global_importacion",
         "type": "number",

@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "data": [
     [
       "2004-01-01",
@@ -355,12 +355,16 @@
     ],
     [
       "2026-01-01",
-      125135.4415172264
+      124665.9029684688
+    ],
+    [
+      "2026-04-01",
+      130869.553050086
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-01-01",
+      "end_date": "2026-04-01",
       "frequency": "quarter",
       "start_date": "2004-01-01"
     },
@@ -434,13 +438,13 @@
         "frequency": "R/P3M",
         "identifier": "4.2",
         "issued": "2017-09-28",
-        "last_hash": "aecf71d89d3bf98d1ce7e9c826be262e1fcd661e388512608d6ebfd8eccb15b0324400afa98d0507c8b4f6bea0559bd517beaad1d79ece25090564157e03b18c",
+        "last_hash": "ca4aeda5863eff5de48c56581fd92ef5048c457a5421585ab302868443d47f1e1361696a792beadb5e733749789b1dc8da0de46e69c8e83b685c330197d5a7e5",
         "title": "Oferta y Demanda Global, Precios constantes. Base 2004. Valores trimestrales"
       },
       "field": {
         "available": "true",
-        "average": "128889.51598439312",
-        "days_without_data": "170",
+        "average": "128906.29930124794",
+        "days_without_data": "80",
         "description": "Inversion bruta interna fija, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
@@ -450,16 +454,16 @@
         "id": "4.2_DGIT_2004_T_25",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "-0.07971054804669131",
-        "last_value": "125135.4415172264",
+        "last_pct_change": "0.04976220388975383",
+        "last_value": "130869.553050086",
         "max_value": "164571.6467049708",
         "min_value": "71794.43385344952",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos a precios de 2004",
-        "second_to_last_value": "135974.00388717614",
+        "second_to_last_value": "124665.9029684688",
         "significant_figures": "11",
-        "time_index_end": "2026-01-01",
-        "time_index_size": "89",
+        "time_index_end": "2026-04-01",
+        "time_index_size": "90",
         "time_index_start": "2004-01-01",
         "title": "demanda_global_ibif_total",
         "type": "number",

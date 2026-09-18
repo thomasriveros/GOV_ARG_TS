@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "data": [
     [
       "2004-01-01",
@@ -355,12 +355,16 @@
     ],
     [
       "2026-01-01",
-      90857.06139283218
+      92898.30653513006
+    ],
+    [
+      "2026-04-01",
+      95678.40436259173
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-01-01",
+      "end_date": "2026-04-01",
       "frequency": "quarter",
       "start_date": "2004-01-01"
     },
@@ -434,13 +438,13 @@
         "frequency": "R/P3M",
         "identifier": "4.2",
         "issued": "2017-09-28",
-        "last_hash": "aecf71d89d3bf98d1ce7e9c826be262e1fcd661e388512608d6ebfd8eccb15b0324400afa98d0507c8b4f6bea0559bd517beaad1d79ece25090564157e03b18c",
+        "last_hash": "ca4aeda5863eff5de48c56581fd92ef5048c457a5421585ab302868443d47f1e1361696a792beadb5e733749789b1dc8da0de46e69c8e83b685c330197d5a7e5",
         "title": "Oferta y Demanda Global, Precios constantes. Base 2004. Valores trimestrales"
       },
       "field": {
         "available": "true",
-        "average": "84646.34135813333",
-        "days_without_data": "170",
+        "average": "84791.60033754173",
+        "days_without_data": "80",
         "description": "Consumo publico, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
@@ -450,16 +454,16 @@
         "id": "4.2_DGCP_2004_T_30",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "-0.10566958227050982",
-        "last_value": "90857.06139283218",
+        "last_pct_change": "0.02992624872457017",
+        "last_value": "95678.40436259173",
         "max_value": "105392.23970881505",
         "min_value": "49687.34219058054",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos a precios de 2004",
-        "second_to_last_value": "101592.2746131105",
+        "second_to_last_value": "92898.30653513006",
         "significant_figures": "12",
-        "time_index_end": "2026-01-01",
-        "time_index_size": "89",
+        "time_index_end": "2026-04-01",
+        "time_index_size": "90",
         "time_index_start": "2004-01-01",
         "title": "demanda_global_consumo_publico",
         "type": "number",

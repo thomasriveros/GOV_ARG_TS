@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "data": [
     [
       "2004-01-01",
@@ -355,12 +355,16 @@
     ],
     [
       "2026-01-01",
-      48534.43565987708
+      49146.0022421735
+    ],
+    [
+      "2026-04-01",
+      97139.8866639304
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-01-01",
+      "end_date": "2026-04-01",
       "frequency": "quarter",
       "start_date": "2004-01-01"
     },
@@ -434,13 +438,13 @@
         "frequency": "R/P3M",
         "identifier": "6.2",
         "issued": "2017-09-28",
-        "last_hash": "21bd634e3c3707b9c5f8fffb071674869b576019d34e9b98aa40d0a8eef6afa45ac3232f5fac92427d58ce434cec5d86bae7127a927aa6cead534483d6e3e681",
+        "last_hash": "b27c9957dcd4d3aa9a0ab9d47d93265b94124a8d4dec412fb7ae50465857580ebf5be8f8df849025f10f47341b481461f5e4583f6d4ccd6f8715c3abc82e2017",
         "title": "Producto Interno Bruto. Precios constantes. Base 2004. Valores trimestrales."
       },
       "field": {
         "available": "true",
-        "average": "47535.58288048648",
-        "days_without_data": "170",
+        "average": "48093.53699566137",
+        "days_without_data": "80",
         "description": "Valor agregado bruto trimestral a precios de productor, de agricultura ganaderia caza y silvicultura en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",
@@ -450,16 +454,16 @@
         "id": "6.2_AGCS_2004_T_39",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "0.20859506201148004",
-        "last_value": "48534.43565987708",
+        "last_pct_change": "0.9765572423421263",
+        "last_value": "97139.8866639304",
         "max_value": "110971.39774864804",
         "min_value": "27522.75175121024",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos a precios de 2004",
-        "second_to_last_value": "40157.73122479965",
+        "second_to_last_value": "49146.0022421735",
         "significant_figures": "12",
-        "time_index_end": "2026-01-01",
-        "time_index_size": "89",
+        "time_index_end": "2026-04-01",
+        "time_index_size": "90",
         "time_index_start": "2004-01-01",
         "title": "agricultura_ganaderia_caza_silvicultura",
         "type": "number",

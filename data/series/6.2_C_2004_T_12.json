@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 90,
   "data": [
     [
       "2004-01-01",
@@ -355,12 +355,16 @@
     ],
     [
       "2026-01-01",
-      20220.62108023296
+      20193.735980445057
+    ],
+    [
+      "2026-04-01",
+      18998.08411510261
     ]
   ],
   "meta": [
     {
-      "end_date": "2026-01-01",
+      "end_date": "2026-04-01",
       "frequency": "quarter",
       "start_date": "2004-01-01"
     },
@@ -434,13 +438,13 @@
         "frequency": "R/P3M",
         "identifier": "6.2",
         "issued": "2017-09-28",
-        "last_hash": "21bd634e3c3707b9c5f8fffb071674869b576019d34e9b98aa40d0a8eef6afa45ac3232f5fac92427d58ce434cec5d86bae7127a927aa6cead534483d6e3e681",
+        "last_hash": "b27c9957dcd4d3aa9a0ab9d47d93265b94124a8d4dec412fb7ae50465857580ebf5be8f8df849025f10f47341b481461f5e4583f6d4ccd6f8715c3abc82e2017",
         "title": "Producto Interno Bruto. Precios constantes. Base 2004. Valores trimestrales."
       },
       "field": {
         "available": "true",
-        "average": "20508.862912147426",
-        "days_without_data": "170",
+        "average": "20491.777757738175",
+        "days_without_data": "80",
         "description": "Valor agregado bruto trimestral a precios de productor de construcción en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",
@@ -450,16 +454,16 @@
         "id": "6.2_C_2004_T_12",
         "is_percentage": false,
         "is_updated": "True",
-        "last_pct_change": "0.07278237269024879",
-        "last_value": "20220.62108023296",
+        "last_pct_change": "-0.05920904712730102",
+        "last_value": "18998.08411510261",
         "max_value": "23914.29214741788",
         "min_value": "10644.422460916698",
         "representation_mode": "value",
         "representation_mode_units": "Millones de pesos a precios de 2004",
-        "second_to_last_value": "18848.7633605734",
+        "second_to_last_value": "20193.735980445057",
         "significant_figures": "12",
-        "time_index_end": "2026-01-01",
-        "time_index_size": "89",
+        "time_index_end": "2026-04-01",
+        "time_index_size": "90",
         "time_index_start": "2004-01-01",
         "title": "construccion",
         "type": "number",
