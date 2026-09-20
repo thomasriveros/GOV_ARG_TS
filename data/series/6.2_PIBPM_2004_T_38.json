@@ -444,7 +444,7 @@
       "field": {
         "available": "true",
         "average": "671785.7231308956",
-        "days_without_data": "80",
+        "days_without_data": "81",
         "description": "Valor agregado bruto trimestral a precios de productor de producto interno bruto a precios de mercado en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",

@@ -444,7 +444,7 @@
       "field": {
         "available": "true",
         "average": "474006.39229686896",
-        "days_without_data": "80",
+        "days_without_data": "81",
         "description": "Consumo privado, en millones de pesos de 2004 y Anual.",
         "frequency": "R/P3M",
         "hits_180_days": "0",

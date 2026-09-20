@@ -444,7 +444,7 @@
       "field": {
         "available": "true",
         "average": "84791.60033754173",
-        "days_without_data": "80",
+        "days_without_data": "81",
         "description": "Consumo publico, en millones de pesos de 2004 y Trimestral.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
