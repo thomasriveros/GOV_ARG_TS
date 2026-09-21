@@ -549,7 +549,7 @@
       "field": {
         "available": "true",
         "average": "2773.777394017094",
-        "days_without_data": "19",
+        "days_without_data": "21",
         "description": "IPC. Nivel General Nacional. Base dic 2016. Mensual.",
         "frequency": "R/P1M",
         "hits_180_days": "0",

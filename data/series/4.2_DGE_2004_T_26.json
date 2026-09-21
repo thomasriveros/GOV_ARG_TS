@@ -444,7 +444,7 @@
       "field": {
         "available": "true",
         "average": "147070.81127320463",
-        "days_without_data": "81",
+        "days_without_data": "83",
         "description": "Exportaciones, en millones de pesos de 2004 y Trimestral",
         "frequency": "R/P3M",
         "hits_180_days": "0",
