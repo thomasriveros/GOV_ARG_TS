@@ -444,7 +444,7 @@
       "field": {
         "available": "true",
         "average": "87379.37131896768",
-        "days_without_data": "83",
+        "days_without_data": "84",
         "description": "Valor agregado bruto trimestral a precios de productor de comercio mayorista y minorista y reparaciones en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",

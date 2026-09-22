@@ -545,7 +545,7 @@
       "field": {
         "available": "true",
         "average": "0.04290139684908722",
-        "days_without_data": "21",
+        "days_without_data": "22",
         "description": "IPC. Tasa de variación mensual. Nivel General. Nacional. Base dic 2016.",
         "frequency": "R/P1M",
         "hits_180_days": "0",
