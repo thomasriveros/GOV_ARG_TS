@@ -444,7 +444,7 @@
       "field": {
         "available": "true",
         "average": "115517.90630075839",
-        "days_without_data": "85",
+        "days_without_data": "86",
         "description": "Valor agregado bruto trimestral a precios de productor de industria manufacturera en pesos de 2004",
         "frequency": "R/P3M",
         "hits_180_days": "0",
