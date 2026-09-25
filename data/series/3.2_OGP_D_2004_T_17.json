@@ -444,7 +444,7 @@
       "field": {
         "available": "true",
         "average": "671579.3766572268",
-        "days_without_data": "86",
+        "days_without_data": "87",
         "description": "Oferta global total a precios de comprador, en millones de pesos de 2004 y Anual.",
         "frequency": "R/P3M",
         "hits_180_days": "0",
