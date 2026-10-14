@@ -45,6 +45,11 @@ must exactly match the API's official theme names.
 
 The API limits a single series response to 1,000 observations. Every category is
 paginated automatically and checked for completeness before files are replaced.
+Count discovery uses the same page size as the download to avoid inconsistent
+totals from differently sized API requests. If no sorting order yields a complete
+partition and counts disagree, the category restarts from a fresh count, discarding
+partial results, for up to three attempts. Persistent inconsistency still fails
+the update rather than publishing an incomplete catalog.
 
 ## Run locally
 

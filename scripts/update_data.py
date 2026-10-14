@@ -20,6 +20,10 @@ DEFAULT_API_URL = "https://apis.datos.gob.ar/series/api"
 USER_AGENT = "GOV_ARG_TS/1.0 (+https://github.com/thomasriveros/GOV_ARG_TS)"
 
 
+class CatalogChangedError(RuntimeError):
+    """The API count changed during a category download."""
+
+
 def request_json(url: str, attempts: int = 5) -> dict:
     """Fetch JSON with bounded exponential backoff."""
     last_error: Exception | None = None
@@ -86,7 +90,10 @@ def fetch_partition(
         if not isinstance(page, list):
             raise RuntimeError("Unexpected /search response: 'data' is not a list")
         if int(payload["count"]) != expected_count:
-            raise RuntimeError("Catalog changed while it was being downloaded; retry later")
+            raise CatalogChangedError(
+                f"Catalog count changed for {filters}: "
+                f"expected {expected_count}, received {payload['count']}"
+            )
         records.extend(page)
         if not page:
             break
@@ -114,12 +121,15 @@ def fetch_unique_partition(
         ("hits_90_days", "desc"),
         ("hits_90_days", "asc"),
     ]
+    count_error: CatalogChangedError | None = None
     for sort_by, sort in sort_orders:
         try:
             records = fetch_partition(
                 api_url, page_size, filters, expected_count, sort_by, sort
             )
         except RuntimeError as error:
+            if isinstance(error, CatalogChangedError):
+                count_error = error
             print(
                 f"Skipping unavailable ordering {sort_by} {sort}: {error}",
                 file=sys.stderr,
@@ -138,6 +148,8 @@ def fetch_unique_partition(
         if len(records_by_id) == expected_count:
             return list(records_by_id.values())
 
+    if count_error is not None:
+        raise count_error
     raise RuntimeError(
         f"Incomplete partition {filters}: recovered {len(records_by_id)} unique "
         f"series, expected {expected_count}"
@@ -147,8 +159,29 @@ def fetch_unique_partition(
 def fetch_category(
     api_url: str, page_size: int, theme: str, catalogs: list[str]
 ) -> list[dict]:
+    """Restart from a fresh count when the API changes during pagination."""
+    for attempt in range(3):
+        try:
+            return fetch_category_once(api_url, page_size, theme, catalogs)
+        except CatalogChangedError:
+            if attempt == 2:
+                raise
+            delay = 2 ** (attempt + 1)
+            print(
+                f"Catalog changed for {theme!r}; restarting category "
+                f"in {delay}s (attempt {attempt + 2}/3)",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+
+
+def fetch_category_once(
+    api_url: str, page_size: int, theme: str, catalogs: list[str]
+) -> list[dict]:
     theme_filters = {"dataset_theme": theme}
-    total_count = int(search_page(api_url, 1, 0, theme_filters)["count"])
+    # The API can report different totals for limit=1 and full-sized pages.
+    # Discover the count with the same request shape used for pagination.
+    total_count = int(search_page(api_url, page_size, 0, theme_filters)["count"])
     if total_count <= 10_000:
         records = fetch_unique_partition(
             api_url, page_size, theme_filters, total_count
@@ -158,7 +191,7 @@ def fetch_category(
         partition_count = 0
         for catalog in catalogs:
             filters = {"catalog_id": catalog, "dataset_theme": theme}
-            catalog_count = int(search_page(api_url, 1, 0, filters)["count"])
+            catalog_count = int(search_page(api_url, page_size, 0, filters)["count"])
             if catalog_count:
                 if catalog_count > 10_000:
                     raise RuntimeError(
@@ -169,7 +202,7 @@ def fetch_category(
                 )
                 partition_count += catalog_count
         if partition_count != total_count:
-            raise RuntimeError(
+            raise CatalogChangedError(
                 f"Catalog partitions for {theme!r} contain {partition_count} records; "
                 f"expected {total_count}"
             )
